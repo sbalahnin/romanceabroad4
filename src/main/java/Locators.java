@@ -21,7 +21,7 @@ public class Locators {
 
     //SignIn page
     public static final By LINK_SIGN_IN = By.xpath("//a[@href='https://romanceabroad.com/users/login_form']");
-    public static final int indexLinkSignIn = 0;
+
 
     //Registration
     public static final By BUTTON_REGISTRATION = By.xpath("//button[@id='show-registration-block']");

@@ -11,6 +11,7 @@ public class Data {
     public static final String expectedUrlGifts = "https://romanceabroad.com/store/category-sweets";
     public static final String expectedUrlTourUkraine = "https://romanceabroad.com/store/sweets/20-tour_to_ukraine";
     public static final String expectedUrlBlog = "https://romanceabroad.com/content/view/blog";
+    public static final String expectedUrlSignIn = "https://romanceabroad.com/";
 
 
 }
