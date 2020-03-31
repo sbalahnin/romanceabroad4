@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a828a06-9c40-4fec-96ea-84351915c78e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BlogTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GiftsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HowWeWorkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SignInTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TourToUkraineTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +47,40 @@
       <recent name="C:\Users\sbala\Project\romance-abroad4" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RegistrationTest.testRegistration ">
+  <component name="RunManager" selected="TestNG.SignInTest">
+    <configuration name="BlogTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romanceabroad4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BlogTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GiftsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romanceabroad4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GiftsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HowWeWorkTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romanceabroad4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HowWeWorkTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegistrationTest.testRegistration " type="TestNG">
       <module name="romanceabroad4" />
       <useClassPathOnly />
@@ -65,48 +102,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTest.testRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance-abroad4" />
+    <configuration name="SignInTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romanceabroad4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
-      <option name="METHOD_NAME" value="testRegistration" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="SignInTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTest.testSignIn1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance-abroad4" />
+    <configuration name="TourToUkraineTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romanceabroad4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
-      <option name="METHOD_NAME" value="testSignIn1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegistrationTest.testSignInLink" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance-abroad4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
-      <option name="METHOD_NAME" value="testSignInLink" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegistrationTest.testSignInRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance-abroad4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
-      <option name="METHOD_NAME" value="testSignInRegistration" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="TourToUkraineTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -115,17 +126,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.RegistrationTest.testRegistration " />
-      <item itemvalue="TestNG.RegistrationTest.testRegistration" />
-      <item itemvalue="TestNG.RegistrationTest.testSignIn1" />
-      <item itemvalue="TestNG.RegistrationTest.testSignInLink" />
-      <item itemvalue="TestNG.RegistrationTest.testSignInRegistration" />
+      <item itemvalue="TestNG.HowWeWorkTest" />
+      <item itemvalue="TestNG.TourToUkraineTest" />
+      <item itemvalue="TestNG.BlogTest" />
+      <item itemvalue="TestNG.GiftsTest" />
+      <item itemvalue="TestNG.SignInTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RegistrationTest.testSignInRegistration" />
-        <item itemvalue="TestNG.RegistrationTest.testSignInLink" />
-        <item itemvalue="TestNG.RegistrationTest.testRegistration" />
-        <item itemvalue="TestNG.RegistrationTest.testSignIn1" />
+        <item itemvalue="TestNG.SignInTest" />
+        <item itemvalue="TestNG.BlogTest" />
+        <item itemvalue="TestNG.GiftsTest" />
+        <item itemvalue="TestNG.TourToUkraineTest" />
+        <item itemvalue="TestNG.HowWeWorkTest" />
       </list>
     </recent_temporary>
   </component>
@@ -159,22 +172,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="507" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1585529948096" />
-    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1585611886769">
+    <state x="571" y="281" width="393" height="265" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585620422873">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585611886769" />
-    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1585611886768">
+    <state x="571" y="281" width="393" height="265" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1585620422873" />
+    <state width="1493" height="33" key="GridCell.Tab.0.bottom" timestamp="1585623488255">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585611886768" />
-    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1585611886768">
+    <state width="1493" height="33" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585623488255" />
+    <state width="1493" height="33" key="GridCell.Tab.0.center" timestamp="1585623488255">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585611886768" />
-    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1585611886769">
+    <state width="1493" height="33" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585623488255" />
+    <state width="1493" height="33" key="GridCell.Tab.0.left" timestamp="1585623488254">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585611886769" />
+    <state width="1493" height="33" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585623488254" />
+    <state width="1493" height="33" key="GridCell.Tab.0.right" timestamp="1585623488255">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="33" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585623488255" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1585421405712">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -195,10 +212,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="264" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585540086556" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585606290421">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585615518946">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585606290421" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585615518946" />
     <state x="598" y="253" key="export.test.results" timestamp="1585410210673">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
