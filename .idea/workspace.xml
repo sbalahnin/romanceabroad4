@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a828a06-9c40-4fec-96ea-84351915c78e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SignInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SignInTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +29,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1ZHCcuH6Yq0Wr60zE9Vo76KRukS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,21 +47,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sbala\Project\romance\romanceabroad4" />
       <recent name="C:\Users\sbala\Project\romance-abroad4" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SignInTest">
-    <configuration name="BlogTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SearchTest.testSearchPage">
+    <configuration name="MainPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romanceabroad4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BlogTest" />
+      <option name="MAIN_CLASS_NAME" value="MainPageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -56,10 +70,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GiftsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MediaTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romanceabroad4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GiftsTest" />
+      <option name="MAIN_CLASS_NAME" value="MediaTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -67,10 +81,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HowWeWorkTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romanceabroad4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HowWeWorkTest" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -99,10 +113,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignInTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romanceabroad4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SignInTest" />
+      <option name="MAIN_CLASS_NAME" value="SearchTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -110,11 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TourToUkraineTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTest.testSearchPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romanceabroad4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TourToUkraineTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="SearchTest" />
+      <option name="METHOD_NAME" value="testSearchPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -123,24 +138,24 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.RegistrationTest.testRegistration " />
-      <item itemvalue="TestNG.HowWeWorkTest" />
-      <item itemvalue="TestNG.TourToUkraineTest" />
-      <item itemvalue="TestNG.BlogTest" />
-      <item itemvalue="TestNG.GiftsTest" />
-      <item itemvalue="TestNG.SignInTest" />
+      <item itemvalue="TestNG.SearchTest" />
+      <item itemvalue="TestNG.RegistrationTest" />
+      <item itemvalue="TestNG.MediaTest" />
+      <item itemvalue="TestNG.MainPageTest" />
+      <item itemvalue="TestNG.SearchTest.testSearchPage" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SignInTest" />
-        <item itemvalue="TestNG.BlogTest" />
-        <item itemvalue="TestNG.GiftsTest" />
-        <item itemvalue="TestNG.TourToUkraineTest" />
-        <item itemvalue="TestNG.HowWeWorkTest" />
+        <item itemvalue="TestNG.SearchTest.testSearchPage" />
+        <item itemvalue="TestNG.SearchTest" />
+        <item itemvalue="TestNG.RegistrationTest" />
+        <item itemvalue="TestNG.MainPageTest" />
+        <item itemvalue="TestNG.MediaTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\sbala\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -165,30 +180,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585606482477" />
-    <state x="507" y="222" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585529948096">
+    <state x="507" y="222" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586622445200">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="507" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1585529948096" />
+    <state x="507" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1586622445200" />
     <state x="571" y="281" width="393" height="265" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585620422873">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="571" y="281" width="393" height="265" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1585620422873" />
-    <state width="1493" height="33" key="GridCell.Tab.0.bottom" timestamp="1585623875941">
+    <state width="1493" height="307" key="GridCell.Tab.0.bottom" timestamp="1586643411130">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="33" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585623875941" />
-    <state width="1493" height="33" key="GridCell.Tab.0.center" timestamp="1585623875941">
+    <state width="1493" height="307" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586643411130" />
+    <state width="1493" height="307" key="GridCell.Tab.0.center" timestamp="1586643411130">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="33" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585623875941" />
-    <state width="1493" height="33" key="GridCell.Tab.0.left" timestamp="1585623875940">
+    <state width="1493" height="307" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586643411130" />
+    <state width="1493" height="307" key="GridCell.Tab.0.left" timestamp="1586643411129">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="33" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585623875940" />
-    <state width="1493" height="33" key="GridCell.Tab.0.right" timestamp="1585623875941">
+    <state width="1493" height="307" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586643411129" />
+    <state width="1493" height="307" key="GridCell.Tab.0.right" timestamp="1586643411130">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="33" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585623875941" />
+    <state width="1493" height="307" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586643411130" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1585421405712">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -205,14 +220,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585421405712" />
-    <state x="264" y="0" key="SettingsEditor" timestamp="1585540086556">
+    <state x="213" y="0" key="SettingsEditor" timestamp="1586624849359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="264" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585540086556" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585615518946">
+    <state x="213" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586624849359" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586634895899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585615518946" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586634895899" />
     <state x="598" y="253" key="export.test.results" timestamp="1585410210673">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -221,6 +236,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1584499028158" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="romanceabroad4" type="b2602c69:ProjectViewProjectNode" />
+        <item name="romanceabroad4" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/romance_abroad4$MainPage_testSignInLink.ic" NAME="MainPage.testSignInLink Coverage Results" MODIFIED="1585443873733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
