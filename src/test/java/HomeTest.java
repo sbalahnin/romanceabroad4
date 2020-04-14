@@ -1,8 +1,9 @@
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class MainPageTest extends BaseUI {
+public class HomeTest extends BaseUI {
+
+
 
 
     @Test

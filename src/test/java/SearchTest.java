@@ -17,7 +17,8 @@ public class SearchTest extends BaseUI {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         WebElement dropDownListSortBy = driver.findElement(Locators.DROP_DOWN_LIST_SORT_BY);
-        getDropDownListByValue(dropDownListSortBy,"date_created");
+        searchPage.getDropDownListByValue(dropDownListSortBy,"date_created");
 
     }
+
 }
