@@ -41,16 +41,16 @@ public class Locators {
 
     //Day drop down selected
     public static final By LIST_DATE = By.xpath("//div[@id='daySelect']");
-    public static final By DATE_OF_BIRTH = By.xpath("//a[@data-value='5'][text()='5']");
+    public static final By DATE_OF_BIRTH = By.xpath("//li[@data-handler='selectDay']//a[text()='5']");
 
     //MONTH DROP DOWN
     public static final By LIST_MONTH = By.xpath("//div[@id='monthSelect']");
-    public static final By MONTH_OF_BIRTH = By.xpath("//a[@data-value='5'][text()='Jun']");
+    public static final By MONTH_OF_BIRTH = By.xpath("//li[@data-handler='selectMonth']//a[text()='Jun']");
 
 
     //YEAR DROP DOWN
     public static final By LIST_YEAR = By.xpath("//div[@id='yearSelect']");
-    public static final By YEAR_OF_BIRTH = By.xpath("//a[@data-value='1986'][text()='1986']");
+    public static final By YEAR_OF_BIRTH = By.xpath("//li[@data-handler='selectYear']//a[text()='1986']");
 
 
 
