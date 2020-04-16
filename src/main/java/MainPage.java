@@ -17,17 +17,17 @@ public MainPage (WebDriver driver, WebDriverWait wait) {
         driver.findElement(Locators.BUTTON_REGISTRATION).click();
     }
 
-    public void completeFirstPartofRegistration () {
+    public void completeFirstPartOfRegistration () {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(Locators.TEXT_FIELD_EMAIL).sendKeys(Data.email);
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(Locators.TEXT_FIELD_PASSWORD)));
         driver.findElement(Locators.TEXT_FIELD_PASSWORD).sendKeys(Data.password);
         wait.until(ExpectedConditions.elementToBeClickable(Locators.BUTTON_NEXT));
+        driver.findElement(Locators.BUTTON_NEXT).click();
     }
 
-    public void secondPartofRegistration () {
+    public void secondPartOfRegistration () {
 
-        driver.findElement(Locators.BUTTON_NEXT).click();
         driver.findElement(Locators.TEXT_FIELD_NICKNAME).sendKeys(generateNewNumber(Data.nickname, 10));
         driver.findElement(Locators.LIST_DATE).click();
         driver.findElement(Locators.DATE_OF_BIRTH).click();

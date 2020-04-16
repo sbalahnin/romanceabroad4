@@ -7,8 +7,9 @@ public class RegistrationTest extends BaseUI {
     @Test
     public void testRegistration() {
         mainPage.clickJoinButton();
-        mainPage.completeFirstPartofRegistration();
-        mainPage.secondPartofRegistration();
+        mainPage.completeFirstPartOfRegistration();
+        mainPage.secondPartOfRegistration();
+
     }
 
 }
