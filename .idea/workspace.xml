@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a828a06-9c40-4fec-96ea-84351915c78e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ConditionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IEDriverServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geckodriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ConditionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ConditionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,12 +61,12 @@
       <recent name="C:\Users\sbala\Project\romance-abroad4" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ConditionsTest.testCase7">
-    <configuration name="ConditionsTest.testCase3" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ConditionsTest.testCase13">
+    <configuration name="ConditionsTest.testCase10" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romanceabroad4" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ConditionsTest" />
-      <option name="METHOD_NAME" value="testCase3" />
+      <option name="METHOD_NAME" value="testCase10" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -69,11 +74,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConditionsTest.testCase4" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ConditionsTest.testCase12" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romanceabroad4" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ConditionsTest" />
-      <option name="METHOD_NAME" value="testCase4" />
+      <option name="METHOD_NAME" value="testCase12" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -81,11 +86,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConditionsTest.testCase5" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ConditionsTest.testCase13" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romanceabroad4" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ConditionsTest" />
-      <option name="METHOD_NAME" value="testCase5" />
+      <option name="METHOD_NAME" value="testCase13" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -93,11 +98,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConditionsTest.testCase7" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ConditionsTest.testCase9" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romanceabroad4" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ConditionsTest" />
-      <option name="METHOD_NAME" value="testCase7" />
+      <option name="METHOD_NAME" value="testCase9" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -105,11 +110,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConditionsTest.textCase6" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ConditionsTest.testCases11" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romanceabroad4" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ConditionsTest" />
-      <option name="METHOD_NAME" value="textCase6" />
+      <option name="METHOD_NAME" value="testCases11" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -122,7 +127,7 @@
       <useClassPathOnly />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
       <option name="METHOD_NAME" value="testRegistration" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -140,19 +145,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.RegistrationTest.testRegistration " />
-      <item itemvalue="TestNG.ConditionsTest.testCase3" />
-      <item itemvalue="TestNG.ConditionsTest.testCase4" />
-      <item itemvalue="TestNG.ConditionsTest.testCase5" />
-      <item itemvalue="TestNG.ConditionsTest.textCase6" />
-      <item itemvalue="TestNG.ConditionsTest.testCase7" />
+      <item itemvalue="TestNG.ConditionsTest.testCase10" />
+      <item itemvalue="TestNG.ConditionsTest.testCases11" />
+      <item itemvalue="TestNG.ConditionsTest.testCase9" />
+      <item itemvalue="TestNG.ConditionsTest.testCase12" />
+      <item itemvalue="TestNG.ConditionsTest.testCase13" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ConditionsTest.testCase7" />
-        <item itemvalue="TestNG.ConditionsTest.textCase6" />
-        <item itemvalue="TestNG.ConditionsTest.testCase5" />
-        <item itemvalue="TestNG.ConditionsTest.testCase4" />
-        <item itemvalue="TestNG.ConditionsTest.testCase3" />
+        <item itemvalue="TestNG.ConditionsTest.testCase13" />
+        <item itemvalue="TestNG.ConditionsTest.testCase12" />
+        <item itemvalue="TestNG.ConditionsTest.testCases11" />
+        <item itemvalue="TestNG.ConditionsTest.testCase10" />
+        <item itemvalue="TestNG.ConditionsTest.testCase9" />
       </list>
     </recent_temporary>
   </component>
@@ -194,22 +199,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1586823102924" />
-    <state width="1493" height="307" key="GridCell.Tab.0.bottom" timestamp="1587005708234">
+    <state x="499" y="162" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1587311107063">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="307" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587005708234" />
-    <state width="1493" height="307" key="GridCell.Tab.0.center" timestamp="1587005708234">
+    <state x="499" y="162" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1587311107063" />
+    <state width="1493" height="307" key="GridCell.Tab.0.bottom" timestamp="1587315999136">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="307" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587005708234" />
-    <state width="1493" height="307" key="GridCell.Tab.0.left" timestamp="1587005708234">
+    <state width="1493" height="307" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587315999136" />
+    <state width="1493" height="307" key="GridCell.Tab.0.center" timestamp="1587315999136">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="307" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587005708234" />
-    <state width="1493" height="307" key="GridCell.Tab.0.right" timestamp="1587005708234">
+    <state width="1493" height="307" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587315999136" />
+    <state width="1493" height="307" key="GridCell.Tab.0.left" timestamp="1587315999136">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="307" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587005708234" />
+    <state width="1493" height="307" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587315999136" />
+    <state width="1493" height="307" key="GridCell.Tab.0.right" timestamp="1587315999136">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="307" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587315999136" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1585421405712">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -230,10 +239,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="213" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586624849359" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587006237409">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587308927215">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587006237409" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587308927215" />
     <state x="598" y="253" key="export.test.results" timestamp="1585410210673">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
