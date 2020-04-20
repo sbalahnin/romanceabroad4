@@ -7,6 +7,9 @@ public class Locators {
 
     public static final  By YOUTUBE_LINK = By.xpath("//iframe[@src='https://www.youtube.com/embed/RRECuJzm3IY?start=85']");
     public static final  By YOUTUBE_PLAY_BUTTON = By.cssSelector("button.ytp-large-play-button.ytp-button");
+    public static final  By TITLE_OF_PAGE = By.xpath("//h1");
+    public static final  By TAB_OF_MAIN_PAGE = By.xpath("//ul[@class='navbar-nav']//li");
+
 
 
 
