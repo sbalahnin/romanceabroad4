@@ -92,6 +92,7 @@ public class ConditionsTest extends BaseUI {
         String expectedTitlePrettyWomen = "Single Ukrainian women online";
 
 
+
         List<WebElement> links = driver.findElements(Locators.TAB_OF_MAIN_PAGE);
         System.out.println(links.size());
 
@@ -106,20 +107,23 @@ public class ConditionsTest extends BaseUI {
             }
             if (info.contains("Pretty Women")) {
                 actualTitle = driver.findElement(Locators.TITLE_OF_PAGE).getText();
-                actualUrlPrettyWomen=driver.getCurrentUrl();
+                actualUrlPrettyWomen = driver.getCurrentUrl();
                 Assert.assertEquals(expectedTitlePrettyWomen, actualTitle);
                 Assert.assertEquals(actualUrlPrettyWomen, expectedUrlPrettyWomen);
                 driver.findElement(By.xpath("//a[@class='g-pic-border g-rounded']")).isDisplayed();
 
                 driver.get(Data.expectedUrlSignIn);
-                links = driver.findElements(Locators.TAB_OF_MAIN_PAGE);
             }
 
+                driver.navigate().back();
+                links = driver.findElements(Locators.TAB_OF_MAIN_PAGE);
         }
+
     }
 
 
-        //Homework for Lesson 10
+
+                                            //Homework for Lesson 10
         // Create 3 types of Conditions (String, Integer, Boolean) + Boolean with "isSelected + Assert.fail
         @Test
         public void tesCase8 () {
