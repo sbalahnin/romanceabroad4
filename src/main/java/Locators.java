@@ -4,26 +4,22 @@ public class Locators {
 
 
     //MainPage
+    public static final By YOUTUBE_LINK = By.xpath("//iframe[@src='https://www.youtube.com/embed/RRECuJzm3IY?start=85']");
+    public static final By YOUTUBE_PLAY_BUTTON = By.cssSelector("button.ytp-large-play-button.ytp-button");
+    public static final By TITLE_OF_PAGE = By.xpath("//h1");
+    public static final By TAB_OF_MAIN_PAGE = By.xpath("//ul[@class='navbar-nav']//li");
 
-    public static final  By YOUTUBE_LINK = By.xpath("//iframe[@src='https://www.youtube.com/embed/RRECuJzm3IY?start=85']");
-    public static final  By YOUTUBE_PLAY_BUTTON = By.cssSelector("button.ytp-large-play-button.ytp-button");
-    public static final  By TITLE_OF_PAGE = By.xpath("//h1");
-    public static final  By TAB_OF_MAIN_PAGE = By.xpath("//ul[@class='navbar-nav']//li");
+    //HowWeWork page
+    public static final By HOW_WE_WORK_LINK = By.xpath("//a[@href='https://romanceabroad.com/content/view/how-it-works']");
+    public static final By IMAGES = By.xpath("//a[@class='g-pic-border g-rounded']");
 
+    //GiftsLink
+    public static final By GIFTS_LINK = By.xpath("//a[@href='https://romanceabroad.com/store/category-sweets']");
 
+    //TourToUkraine Link
+    public static final By TOUR_TO_UKRAINE_LINK = By.xpath("//a[@href='https://romanceabroad.com/store/sweets/20-tour_to_ukraine'][text()='TOUR TO UKRAINE']");
 
-
-   //HowWeWork page
-   public static final By HOW_WE_WORK_LINK = By.xpath("//a[@href='https://romanceabroad.com/content/view/how-it-works']");
-
-   //GiftsLink
-   public static final By GIFTS_LINK = By.xpath("//a[@href='https://romanceabroad.com/store/category-sweets']");
-
-
-   //TourToUkraine Link
-   public static final By TOUR_TO_UKRAINE_LINK = By.xpath("//a[@href='https://romanceabroad.com/store/sweets/20-tour_to_ukraine'][text()='TOUR TO UKRAINE']");
-
-   //Media page
+    //Media page
     public static final By LINK_MEDIA = By.cssSelector("a[href='https://romanceabroad.com/media/index']");
 
     //Blog page
@@ -32,7 +28,6 @@ public class Locators {
 
     //SignIn page
     public static final By LINK_SIGN_IN = By.xpath("//a[@href='https://romanceabroad.com/users/login_form']");
-
 
     //Registration
     public static final By BUTTON_REGISTRATION = By.xpath("//button[@id='show-registration-block']");
@@ -50,16 +45,12 @@ public class Locators {
     public static final By LIST_MONTH = By.xpath("//div[@id='monthSelect']");
     public static final By MONTH_OF_BIRTH = By.xpath("//li[@data-handler='selectMonth']//a[text()='Jun']");
 
-
     //YEAR DROP DOWN
     public static final By LIST_YEAR = By.xpath("//div[@id='yearSelect']");
     public static final By YEAR_OF_BIRTH = By.xpath("//li[@data-handler='selectYear']//a[text()='1986']");
 
-
-
     public static final By TEXT_FIELD_LOCATION = By.cssSelector("input[placeholder='Type your location']");
     public static final By CHECKBOX_CONFIRMATION = By.cssSelector("input#confirmation");
-
 
     //Search
     public static final By LINK_SEARCH = By.xpath("//a[@href='https://romanceabroad.com/users/search']");

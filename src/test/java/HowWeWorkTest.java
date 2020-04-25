@@ -3,20 +3,17 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-
-    public class HowWeWorkTest extends BaseUI {
-        String currentUrlHowWeWork;
+public class HowWeWorkTest extends BaseUI {
 
 
-        @Test
-        public void testHowWeWorkLink() {
-            driver.findElement(Locators.HOW_WE_WORK_LINK).click();
-            currentUrlHowWeWork = driver.getCurrentUrl();
-            System.out.println(currentUrlHowWeWork);
-            Assert.assertEquals(currentUrlHowWeWork, Data.expectedUrlHowWeWok);
+    @Test
+    public void testHowWeWorkLink() {
+        String howWeWorkLink = mainPage.verifyHowWeWorkLink();
+        System.out.println(howWeWorkLink);
+        Assert.assertEquals(howWeWorkLink, Data.expectedUrlHowWeWok);
 
-        }
     }
+}
 
 
 

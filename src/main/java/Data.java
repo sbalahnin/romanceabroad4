@@ -1,5 +1,5 @@
 public class Data {
-
+    public static final String mainUrl = "https://romanceabroad.com/";
     public static final String email = "abc@gmail.com";
     public static final String password = "Oregon";
     public static final String nickname = "Testing";
@@ -12,6 +12,9 @@ public class Data {
     public static final String expectedUrlTourUkraine = "https://romanceabroad.com/store/sweets/20-tour_to_ukraine";
     public static final String expectedUrlBlog = "https://romanceabroad.com/content/view/blog";
     public static final String expectedUrlSignIn = "https://romanceabroad.com/";
+    public static final String expectedUrlPrettyWomen = "https://romanceabroad.com/users/search";
+    public static final String expectedTitleHowWeWork = "Ukrainian women for marriage";
+    public static final String expectedTitlePrettyWomen = "Single Ukrainian women online";
 
 
 }

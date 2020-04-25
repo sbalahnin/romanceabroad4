@@ -1,17 +1,15 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class GiftsTest extends BaseUI{
-        String currentUrlGifts;
+public class GiftsTest extends BaseUI {
 
 
-        @Test
-        public void testGiftsLink () {
-            driver.findElement(Locators.GIFTS_LINK).click();
-            currentUrlGifts = driver.getCurrentUrl();
-            System.out.println(currentUrlGifts);
-            Assert.assertEquals(currentUrlGifts,Data.expectedUrlGifts);
+    @Test
+    public void testGiftsLink() {
+        String giftLink = mainPage.verifyGiftLink();
+        System.out.println(giftLink);
+        Assert.assertEquals(giftLink, Data.expectedUrlGifts);
 
-        }
     }
+}
 

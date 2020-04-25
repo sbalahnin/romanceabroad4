@@ -8,16 +8,23 @@ import java.util.concurrent.TimeUnit;
 public class MainPage extends BaseActions {
 
 
-public MainPage (WebDriver driver, WebDriverWait wait) {
-    super(driver, wait);
-
+    public MainPage(WebDriver driver, WebDriverWait wait) {
+        super(driver, wait);
     }
 
-    public void clickJoinButton (){
+    String currentUrlBlog;
+    String currentUrlGifts;
+    String currentUrlHowWeWork;
+    String currentUrlMedia;
+    String currentUrlSignIn;
+    String currentUrlTourUkraine;
+
+    public void clickJoinButton() {
+
         driver.findElement(Locators.BUTTON_REGISTRATION).click();
     }
 
-    public void completeFirstPartOfRegistration () {
+    public void completeFirstPartOfRegistration() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(Locators.TEXT_FIELD_EMAIL).sendKeys(Data.email);
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(Locators.TEXT_FIELD_PASSWORD)));
@@ -26,7 +33,7 @@ public MainPage (WebDriver driver, WebDriverWait wait) {
         driver.findElement(Locators.BUTTON_NEXT).click();
     }
 
-    public void secondPartOfRegistration () {
+    public void secondPartOfRegistration() {
 
         driver.findElement(Locators.TEXT_FIELD_NICKNAME).sendKeys(generateNewNumber(Data.nickname, 10));
         driver.findElement(Locators.LIST_DATE).click();
@@ -38,9 +45,43 @@ public MainPage (WebDriver driver, WebDriverWait wait) {
         driver.findElement(Locators.TEXT_FIELD_PHONE).sendKeys(Data.phone);
         driver.findElement(Locators.TEXT_FIELD_LOCATION).sendKeys(Data.location);
         WebElement checkboxConfirmation = driver.findElement(Locators.CHECKBOX_CONFIRMATION);
-        boolean selectedCheckbox = checkboxConfirmation.isSelected();
-        System.out.println(selectedCheckbox + "!!!!!!!");
         checkboxConfirmation.click();
+    }
+
+    public String verifyBlogLink() {
+        driver.findElements(Locators.BLOG_LINK).get(Locators.indexLinkBlog).click();
+        currentUrlBlog = driver.getCurrentUrl();
+        return currentUrlBlog;
+    }
+
+    public String verifyGiftLink() {
+        driver.findElement(Locators.GIFTS_LINK).click();
+        currentUrlGifts = driver.getCurrentUrl();
+        return currentUrlGifts;
+    }
+
+    public String verifyHowWeWorkLink() {
+        driver.findElement(Locators.HOW_WE_WORK_LINK).click();
+        currentUrlHowWeWork = driver.getCurrentUrl();
+        return currentUrlHowWeWork;
+    }
+
+    public String verifyMediaLink() {
+        driver.findElement(Locators.LINK_MEDIA).click();
+        currentUrlMedia = driver.getCurrentUrl();
+        return currentUrlMedia;
+    }
+
+    public String verifySignInLink() {
+        driver.findElement(Locators.LINK_SIGN_IN).click();
+        currentUrlSignIn = driver.getCurrentUrl();
+        return currentUrlSignIn;
+    }
+
+    public String verifyTourToUkraineLink() {
+        driver.findElement(Locators.TOUR_TO_UKRAINE_LINK).click();
+        currentUrlTourUkraine = driver.getCurrentUrl();
+        return currentUrlTourUkraine;
     }
 }
 
