@@ -83,7 +83,18 @@ public class MainPage extends BaseActions {
         currentUrlTourUkraine = driver.getCurrentUrl();
         return currentUrlTourUkraine;
     }
+
+    public WebElement findYoutubeIframe() {
+        WebElement iFrame = driver.findElement(Locators.YOUTUBE_LINK);
+        return iFrame;
+    }
+
+    public WebElement findYoutubePlayButton() {
+        WebElement buttonPlay = driver.findElement(Locators.YOUTUBE_PLAY_BUTTON);
+        return buttonPlay;
+    }
 }
+
 
 
 
