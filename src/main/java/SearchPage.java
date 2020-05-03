@@ -9,15 +9,6 @@ public class SearchPage extends BaseActions {
         super(driver, wait);
     }
 
-    String currentUrlSearch;
-
-    public String verifySearchLink() {
-        driver.findElement(Locators.LINK_SEARCH).click();
-        currentUrlSearch = driver.getCurrentUrl();
-        return currentUrlSearch;
-
-    }
-
     public void verifyDropDownList() {
         WebElement dropDownListSortBy = driver.findElement(Locators.DROP_DOWN_LIST_SORT_BY);
         getDropDownListByValue(dropDownListSortBy, "date_created");

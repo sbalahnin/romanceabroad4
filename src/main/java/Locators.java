@@ -55,6 +55,46 @@ public class Locators {
     //Search
     public static final By LINK_SEARCH = By.xpath("//a[@href='https://romanceabroad.com/users/search']");
     public static final By DROP_DOWN_LIST_SORT_BY = By.xpath("//div[@class='form-inline']//select");
+    public static final By DROP_DOWN_MAX_AGE = By.cssSelector("select#age_max");
+
+
+                         //Homework 14:  Create 10 xpath with 2 attributes
+    //Pretty Women Page
+    public static final By MENU_LIST_VIEW = By.xpath("//a[@href='javascript:void(0);'][@class='active']");
+    public static final By BUTTON_SENT_MESSAGE = By.xpath("//button[@id='btn_write_message_836500'][@class='btn btn-secondary']");
+    public static final By PAGINATION_SECOND_PAGE = By.xpath("//a[@href='https://romanceabroad.com/users/search/default/DESC/2'][text()='2']");
+
+    //PHOTOS PAGE
+    public static final By LINK_PHOTO_GALLERY = By.xpath("//a[@href='https://romanceabroad.com/media/photo'][@class='b-tabs__text']");
+    public static final By LINK_ALBUMS_GALLERY = By.xpath("//a[@href='https://romanceabroad.com/media/albums'][@class='b-tabs__text']");
+
+    //GIFT PAGE
+    public static final By BUTTON_FIND_PEOPLE= By.xpath("//button[@type='submit'][@id='main_search_button_user_line']");
+    public static final By LINK_INDIVIDUAL_TOUR_TO_UKRAINE = By.xpath("//a[@href='https://romanceabroad.com/store/sweets/5-vip_individual_tour_to_ukraine'][text()='Individual trip to Ukraine']");
+
+    //Tour to Ukraine page
+    public static final By BUTTON_PAY_WITH_PAY_PAL = By.xpath("//a[@class='btn btn-primary btn-block'][@target='_blank']");
+
+   //BLOG page
+    public static final By LINK_KHARKOV_DATING_AGENCY = By.xpath("//a[@href='/content/view/kharkov-dating-agency'][text()='Kharkov dating agency']");
+    public static final By LINK_WEST_WEB_ART = By.xpath("//a[@href='http://westwebart.ru'][@target='_blank']");
+
+
+    //Create 10 xpaths with 2 parents.
+           //Home page
+    public static final By LINK_PHONE_NUMBER = By.xpath("//i//a[@href='callto:18885997816']");
+    public static final By LINK_EMAIL = By.xpath("//i//span//a[@href='mailto:support@romanceabroad.com']");
+    public static final By LINK_FACEBOOK = By.xpath("//div//img[@src='/img/facebook-ico.jpg']");
+    public static final By IMAGE_ROMANCE_ABROAD = By.xpath("//div//a//img[@src='/img/logo.jpg']");
+    public static final By TITLE_UKRAINIAN_BRIDES = By.xpath("//div/h2[@class='section-heading text-white']");
+    public static final By BUTTON_JOIN_NOW = By.xpath("//span//a[@href='#']");
+    public static final By BUTTON_REQUEST_TOUR_INFO = By.xpath("//div//a[@class='btn btn-primary btn-xl js-scroll-trigger']");
+    public static final By BUTTON_LOGIN = By.xpath("//header//div//a[@id='ajax_login_link']");
+
+    //Gift page
+    public static final By LINK_HELP= By.xpath("//div//div[@class='footer-menu-title-block'][@id='footer-menu-title-0']");
+    public static final By LINK_RUSSIAN_LANGUAGE = By.xpath("//ul//li[@class='last']");
+
 
 }
 

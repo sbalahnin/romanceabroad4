@@ -9,6 +9,7 @@ public class MediaTest extends BaseUI {
         String mediaLink = mainPage.verifyMediaLink();
         System.out.println(mediaLink);
         Assert.assertEquals(mediaLink, Data.expectedUrlMedia);
+        mainPage.javaWaitSec(5);
 
 
     }

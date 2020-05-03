@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a828a06-9c40-4fec-96ea-84351915c78e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/IEDriverServerOLD.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BaseActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BaseActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ConditionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ConditionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MediaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MediaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -54,12 +61,22 @@
       <recent name="C:\Users\sbala\Project\romance-abroad4" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HomeTest.MainPageTest">
-    <configuration name="GiftsTest.testGiftsLink" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/sbala/Project/romance/romanceabroad4/TestNG.xml">
+    <configuration name="C:/Users/sbala/Project/romance/romanceabroad4/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romanceabroad4" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTest.testLinksOnMainPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romanceabroad4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GiftsTest" />
-      <option name="METHOD_NAME" value="testGiftsLink" />
+      <option name="MAIN_CLASS_NAME" value="HomeTest" />
+      <option name="METHOD_NAME" value="testLinksOnMainPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -67,11 +84,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeTest.MainPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MediaTest.testMediaPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romanceabroad4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HomeTest" />
-      <option name="METHOD_NAME" value="MainPageTest" />
+      <option name="MAIN_CLASS_NAME" value="MediaTest" />
+      <option name="METHOD_NAME" value="testMediaPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -100,11 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTest.selectRandomDropDownList" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romanceabroad4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="SearchTest" />
+      <option name="METHOD_NAME" value="selectRandomDropDownList" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -123,33 +141,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TourToUkraineTest.testTourToUkraineLink" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romanceabroad4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TourToUkraineTest" />
-      <option name="METHOD_NAME" value="testTourToUkraineLink" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="TestNG.RegistrationTest.testRegistration " />
-      <item itemvalue="TestNG.TourToUkraineTest.testTourToUkraineLink" />
-      <item itemvalue="TestNG.HomeTest.MainPageTest" />
-      <item itemvalue="TestNG.RegistrationTests" />
-      <item itemvalue="TestNG.GiftsTest.testGiftsLink" />
       <item itemvalue="TestNG.SearchTest.testSearchPage" />
+      <item itemvalue="TestNG.HomeTest.testLinksOnMainPage" />
+      <item itemvalue="TestNG.SearchTest.selectRandomDropDownList" />
+      <item itemvalue="TestNG.C:/Users/sbala/Project/romance/romanceabroad4/TestNG.xml" />
+      <item itemvalue="TestNG.MediaTest.testMediaPage" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HomeTest.MainPageTest" />
+        <item itemvalue="TestNG.C:/Users/sbala/Project/romance/romanceabroad4/TestNG.xml" />
+        <item itemvalue="TestNG.MediaTest.testMediaPage" />
+        <item itemvalue="TestNG.SearchTest.selectRandomDropDownList" />
+        <item itemvalue="TestNG.HomeTest.testLinksOnMainPage" />
         <item itemvalue="TestNG.SearchTest.testSearchPage" />
-        <item itemvalue="TestNG.GiftsTest.testGiftsLink" />
-        <item itemvalue="TestNG.RegistrationTests" />
-        <item itemvalue="TestNG.TourToUkraineTest.testTourToUkraineLink" />
       </list>
     </recent_temporary>
   </component>
@@ -187,10 +193,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1587505682811" />
-    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1587832594920">
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588461465378">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1587832594920" />
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1588461465378" />
     <state x="507" y="222" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586622445200">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -219,22 +225,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587830416956" />
-    <state width="1493" height="264" key="GridCell.Tab.0.bottom" timestamp="1587932118342">
+    <state width="1493" height="264" key="GridCell.Tab.0.bottom" timestamp="1588468096676">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587932118342" />
-    <state width="1493" height="264" key="GridCell.Tab.0.center" timestamp="1587932118342">
+    <state width="1493" height="264" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588468096676" />
+    <state width="1493" height="264" key="GridCell.Tab.0.center" timestamp="1588468096676">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587932118342" />
-    <state width="1493" height="264" key="GridCell.Tab.0.left" timestamp="1587932118342">
+    <state width="1493" height="264" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588468096676" />
+    <state width="1493" height="264" key="GridCell.Tab.0.left" timestamp="1588468096676">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587932118342" />
-    <state width="1493" height="264" key="GridCell.Tab.0.right" timestamp="1587932118342">
+    <state width="1493" height="264" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588468096676" />
+    <state width="1493" height="264" key="GridCell.Tab.0.right" timestamp="1588468096676">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587932118342" />
+    <state width="1493" height="264" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588468096676" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1585421405712">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -263,6 +269,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="598" y="253" key="export.test.results/0.0.1536.824@0.0.1536.824" timestamp="1585410210673" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1588470943991">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1588470943991" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584499028158">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -18,6 +18,7 @@ public class MainPage extends BaseActions {
     String currentUrlMedia;
     String currentUrlSignIn;
     String currentUrlTourUkraine;
+    String currentUrlSearch;
 
     public void clickJoinButton() {
 
@@ -67,7 +68,9 @@ public class MainPage extends BaseActions {
     }
 
     public String verifyMediaLink() {
+        wait.until(ExpectedConditions.elementToBeClickable(Locators.LINK_MEDIA));
         driver.findElement(Locators.LINK_MEDIA).click();
+        javaWaitSec(5);
         currentUrlMedia = driver.getCurrentUrl();
         return currentUrlMedia;
     }
@@ -84,6 +87,12 @@ public class MainPage extends BaseActions {
         return currentUrlTourUkraine;
     }
 
+    public String verifySearchLink() {
+        driver.findElement(Locators.LINK_SEARCH).click();
+        currentUrlSearch = driver.getCurrentUrl();
+        return currentUrlSearch;
+    }
+
     public WebElement findYoutubeIframe() {
         WebElement iFrame = driver.findElement(Locators.YOUTUBE_LINK);
         return iFrame;
@@ -93,6 +102,8 @@ public class MainPage extends BaseActions {
         WebElement buttonPlay = driver.findElement(Locators.YOUTUBE_PLAY_BUTTON);
         return buttonPlay;
     }
+
+
 }
 
 
