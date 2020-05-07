@@ -17,10 +17,11 @@ public class BaseUI {
     WebDriverWait wait;
     MainPage mainPage;
     SearchPage searchPage;
+    ContactUsPage contactUsPage;
     SoftAssert softAssert = new SoftAssert();
 
 
-    @BeforeMethod
+    @BeforeMethod (groups ={"user", "admin", "ie"}, alwaysRun = true)
     @Parameters("browser")
     public void setup(@Optional("chrome") String browser, Method method) throws Exception {
         // Check if parameter passed from TestNG is 'firefox'
@@ -48,6 +49,7 @@ public class BaseUI {
         wait = new WebDriverWait(driver, 20);
         mainPage = new MainPage(driver, wait);
         searchPage = new SearchPage(driver, wait);
+        contactUsPage = new ContactUsPage(driver, wait);
         driver.manage().window().maximize();
         driver.get(Data.mainUrl);
     }

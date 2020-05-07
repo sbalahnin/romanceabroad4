@@ -38,18 +38,23 @@ public class Locators {
     public static final By TEXT_FIELD_PHONE = By.cssSelector("input[name='data[phone]']");
 
     //Day drop down selected
-    public static final By LIST_DATE = By.xpath("//div[@id='daySelect']");
-    public static final By DATE_OF_BIRTH = By.xpath("//li[@data-handler='selectDay']//a[text()='5']");
+    public static final By LIST_DAYS = By.xpath("//div[@id='daySelect']");
+    public static final By LIST_VALUE_DAY = By.xpath("//li[@data-handler='selectDay']");
 
     //MONTH DROP DOWN
-    public static final By LIST_MONTH = By.xpath("//div[@id='monthSelect']");
-    public static final By MONTH_OF_BIRTH = By.xpath("//li[@data-handler='selectMonth']//a[text()='Jun']");
+    public static final By LIST_MONTHS = By.xpath("//div[@id='monthSelect']");
+    public static final By LIST_VALUE_MONTH = By.xpath("//li[@data-handler='selectMonth']");
 
     //YEAR DROP DOWN
-    public static final By LIST_YEAR = By.xpath("//div[@id='yearSelect']");
-    public static final By YEAR_OF_BIRTH = By.xpath("//li[@data-handler='selectYear']//a[text()='1986']");
+    public static final By LIST_YEARS = By.xpath("//div[@id='yearSelect']");
+    public static final By LIST_VALUE_YEAR = By.xpath("//li[@data-handler='selectYear']");
 
-    public static final By TEXT_FIELD_LOCATION = By.cssSelector("input[placeholder='Type your location']");
+
+
+    public static final By AUTOFILLING_FORM = By.xpath("//input[@name='region_name']");
+    public static final By LIST_VALUE_LOCATIONS = By.xpath("//div[@class='dropdown dropdown_location']//ul/li");
+
+
     public static final By CHECKBOX_CONFIRMATION = By.cssSelector("input#confirmation");
 
     //Search
@@ -91,9 +96,18 @@ public class Locators {
     public static final By BUTTON_REQUEST_TOUR_INFO = By.xpath("//div//a[@class='btn btn-primary btn-xl js-scroll-trigger']");
     public static final By BUTTON_LOGIN = By.xpath("//header//div//a[@id='ajax_login_link']");
 
-    //Gift page
+            //Gift page
     public static final By LINK_HELP= By.xpath("//div//div[@class='footer-menu-title-block'][@id='footer-menu-title-0']");
     public static final By LINK_RUSSIAN_LANGUAGE = By.xpath("//ul//li[@class='last']");
+
+    //ContactUs page
+    public static final By LINK_CONTACT_US = By.xpath("//a[@href='https://romanceabroad.com/tickets/']");
+    public static final By DROP_DOWN_LIST_REASON = By.cssSelector("select.form-control");
+    public static final By TEXT_FIELD_YOUR_NAME = By.xpath("//input[@name='user_name']");
+    public static final By TEXT_FIELD_EMAIL_ON_CONTACT_US_PAGE = By.xpath("//input[@name='user_email']");
+    public static final By TEXT_FIELD_SUBJECT = By.xpath("//input[@name='subject']");
+    public static final By TEXT_FIELD_MESSAGE = By.xpath("//textarea[@name='message']");
+    public static final By BUTTON_SUBMIT = By.xpath("//input[@type='submit']");
 
 
 }

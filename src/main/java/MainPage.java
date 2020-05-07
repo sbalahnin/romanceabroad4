@@ -1,8 +1,10 @@
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class MainPage extends BaseActions {
@@ -19,35 +21,44 @@ public class MainPage extends BaseActions {
     String currentUrlSignIn;
     String currentUrlTourUkraine;
     String currentUrlSearch;
+    String currentUrlContactUs;
+
 
     public void clickJoinButton() {
 
         driver.findElement(Locators.BUTTON_REGISTRATION).click();
     }
 
-    public void completeFirstPartOfRegistration() {
+    public void completeFirstPartOfRegistration(String email, String password) {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.findElement(Locators.TEXT_FIELD_EMAIL).sendKeys(Data.email);
+        driver.findElement(Locators.TEXT_FIELD_EMAIL).sendKeys(email);
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(Locators.TEXT_FIELD_PASSWORD)));
-        driver.findElement(Locators.TEXT_FIELD_PASSWORD).sendKeys(Data.password);
+        driver.findElement(Locators.TEXT_FIELD_PASSWORD).sendKeys(password);
         wait.until(ExpectedConditions.elementToBeClickable(Locators.BUTTON_NEXT));
         driver.findElement(Locators.BUTTON_NEXT).click();
     }
 
-    public void secondPartOfRegistration() {
+    public void secondPartOfRegistration(String nickname, String day, String month, String year, String phone, String city, String location ) {
 
-        driver.findElement(Locators.TEXT_FIELD_NICKNAME).sendKeys(generateNewNumber(Data.nickname, 10));
-        driver.findElement(Locators.LIST_DATE).click();
-        driver.findElement(Locators.DATE_OF_BIRTH).click();
-        driver.findElement(Locators.LIST_MONTH).click();
-        driver.findElement(Locators.MONTH_OF_BIRTH).click();
-        driver.findElement(Locators.LIST_YEAR).click();
-        driver.findElement(Locators.YEAR_OF_BIRTH).click();
-        driver.findElement(Locators.TEXT_FIELD_PHONE).sendKeys(Data.phone);
-        driver.findElement(Locators.TEXT_FIELD_LOCATION).sendKeys(Data.location);
+        driver.findElement(Locators.TEXT_FIELD_NICKNAME).sendKeys(nickname);
+        driver.findElement(Locators.LIST_DAYS).click();
+        clickValueOfLists(Locators.LIST_VALUE_DAY, day);
+
+        driver.findElement(Locators.LIST_MONTHS).click();
+        clickValueOfLists(Locators.LIST_VALUE_MONTH, month);
+
+        driver.findElement(Locators.LIST_YEARS).click();
+        clickValueOfLists(Locators.LIST_VALUE_YEAR, year);
+
+        driver.findElement(Locators.TEXT_FIELD_PHONE).sendKeys(phone);
         WebElement checkboxConfirmation = driver.findElement(Locators.CHECKBOX_CONFIRMATION);
         checkboxConfirmation.click();
+
+        driver.findElement(Locators.AUTOFILLING_FORM).sendKeys(city);
+        clickValueOfLists(Locators.LIST_VALUE_LOCATIONS, location);
+
     }
+    
 
     public String verifyBlogLink() {
         driver.findElements(Locators.BLOG_LINK).get(Locators.indexLinkBlog).click();
@@ -102,7 +113,11 @@ public class MainPage extends BaseActions {
         WebElement buttonPlay = driver.findElement(Locators.YOUTUBE_PLAY_BUTTON);
         return buttonPlay;
     }
-
+    public String verifyContactUsLink(){
+        driver.findElement(Locators.LINK_CONTACT_US).click();
+        currentUrlContactUs = driver.getCurrentUrl();
+        return currentUrlContactUs;
+    }
 
 }
 

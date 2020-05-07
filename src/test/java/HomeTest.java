@@ -1,5 +1,9 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.util.List;
 
 public class HomeTest extends BaseUI {
 
@@ -25,6 +29,16 @@ public class HomeTest extends BaseUI {
         mainPage.checkLinksOnWebPage("//a", "href");
         mainPage.checkLinksOnWebPage("//img", "src");
 
+    }
+    @Test
+    public void smokeTestMainPage (){
+        List<WebElement> mainTabs = driver.findElements(By.xpath("//ul[@class='navbar-nav']//li/a"));
+        for (int i = 0; i <mainTabs.size() ; i++) {
+            mainTabs.get(i).click();
+            driver.get(Data.mainUrl);
+            mainTabs = driver.findElements(By.xpath("//ul[@class='navbar-nav']//li/a"));
+
+        }
     }
 
 

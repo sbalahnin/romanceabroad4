@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a828a06-9c40-4fec-96ea-84351915c78e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/IEDriverServerOLD.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ContactUsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ContactUsTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BaseActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BaseActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ConditionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ConditionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MediaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MediaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +62,7 @@
       <recent name="C:\Users\sbala\Project\romance-abroad4" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/sbala/Project/romance/romanceabroad4/TestNG.xml">
+  <component name="RunManager" selected="TestNG.ContactUsTests.checkContactAdministratorForm">
     <configuration name="C:/Users/sbala/Project/romance/romanceabroad4/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romanceabroad4" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
@@ -72,11 +73,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeTest.testLinksOnMainPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactUsTests.checkContactAdministratorForm" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romanceabroad4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HomeTest" />
-      <option name="METHOD_NAME" value="testLinksOnMainPage" />
+      <option name="MAIN_CLASS_NAME" value="ContactUsTests" />
+      <option name="METHOD_NAME" value="checkContactAdministratorForm" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -84,11 +85,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediaTest.testMediaPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactUsTests.completeContactAdministrationForm" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romanceabroad4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MediaTest" />
-      <option name="METHOD_NAME" value="testMediaPage" />
+      <option name="MAIN_CLASS_NAME" value="ContactUsTests" />
+      <option name="METHOD_NAME" value="completeContactAdministrationForm" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactUsTests.selectRandomDropDownListOnContactUsPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romanceabroad4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ContactUsTests" />
+      <option name="METHOD_NAME" value="selectRandomDropDownListOnContactUsPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTest.smokeTestMainPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romanceabroad4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HomeTest" />
+      <option name="METHOD_NAME" value="smokeTestMainPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -117,45 +142,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTest.selectRandomDropDownList" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romanceabroad4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchTest" />
-      <option name="METHOD_NAME" value="selectRandomDropDownList" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchTest.testSearchPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romanceabroad4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchTest" />
-      <option name="METHOD_NAME" value="testSearchPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="TestNG.RegistrationTest.testRegistration " />
-      <item itemvalue="TestNG.SearchTest.testSearchPage" />
-      <item itemvalue="TestNG.HomeTest.testLinksOnMainPage" />
-      <item itemvalue="TestNG.SearchTest.selectRandomDropDownList" />
       <item itemvalue="TestNG.C:/Users/sbala/Project/romance/romanceabroad4/TestNG.xml" />
-      <item itemvalue="TestNG.MediaTest.testMediaPage" />
+      <item itemvalue="TestNG.HomeTest.smokeTestMainPage" />
+      <item itemvalue="TestNG.ContactUsTests.checkContactAdministratorForm" />
+      <item itemvalue="TestNG.ContactUsTests.completeContactAdministrationForm" />
+      <item itemvalue="TestNG.ContactUsTests.selectRandomDropDownListOnContactUsPage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContactUsTests.checkContactAdministratorForm" />
+        <item itemvalue="TestNG.ContactUsTests.selectRandomDropDownListOnContactUsPage" />
+        <item itemvalue="TestNG.ContactUsTests.completeContactAdministrationForm" />
+        <item itemvalue="TestNG.HomeTest.smokeTestMainPage" />
         <item itemvalue="TestNG.C:/Users/sbala/Project/romance/romanceabroad4/TestNG.xml" />
-        <item itemvalue="TestNG.MediaTest.testMediaPage" />
-        <item itemvalue="TestNG.SearchTest.selectRandomDropDownList" />
-        <item itemvalue="TestNG.HomeTest.testLinksOnMainPage" />
-        <item itemvalue="TestNG.SearchTest.testSearchPage" />
       </list>
     </recent_temporary>
   </component>
@@ -225,22 +226,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587830416956" />
-    <state width="1493" height="264" key="GridCell.Tab.0.bottom" timestamp="1588468096676">
+    <state width="1493" height="313" key="GridCell.Tab.0.bottom" timestamp="1588832210257">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588468096676" />
-    <state width="1493" height="264" key="GridCell.Tab.0.center" timestamp="1588468096676">
+    <state width="1493" height="313" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588832210257" />
+    <state width="1493" height="313" key="GridCell.Tab.0.center" timestamp="1588832210257">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588468096676" />
-    <state width="1493" height="264" key="GridCell.Tab.0.left" timestamp="1588468096676">
+    <state width="1493" height="313" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588832210257" />
+    <state width="1493" height="313" key="GridCell.Tab.0.left" timestamp="1588832210257">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588468096676" />
-    <state width="1493" height="264" key="GridCell.Tab.0.right" timestamp="1588468096676">
+    <state width="1493" height="313" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588832210257" />
+    <state width="1493" height="313" key="GridCell.Tab.0.right" timestamp="1588832210257">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588468096676" />
+    <state width="1493" height="313" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588832210257" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1585421405712">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
