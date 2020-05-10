@@ -20,8 +20,7 @@
 
         <classes>
 
-            <class name="MediaTest"/>
-
+            <class name="RegistrationTests"/>
         </classes>
 
     </test>
@@ -29,19 +28,9 @@
     <test name="ChromeTestCases">
         <parameter name="browser" value="chrome"/>
 
-        <groups>
-            <run>
-                <exclude name="ie"/>
-                <include name="user"/>
-                <include name="admin"/>
-            </run>
-        </groups>
         <classes>
-            <class name="SearchTest">
-            <methods>
-                <include name=".*TestCase10.*"/>
-                <exclude name=".*TestCase11.*"/>
-            </methods>
+            <class name="RegistrationTests">
+
             </class>
         </classes>
 

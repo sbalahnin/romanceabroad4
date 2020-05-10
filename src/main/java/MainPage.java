@@ -38,7 +38,8 @@ public class MainPage extends BaseActions {
         driver.findElement(Locators.BUTTON_NEXT).click();
     }
 
-    public void secondPartOfRegistration(String nickname, String day, String month, String year, String phone, String city, String location ) {
+    public void secondPartOfRegistration(String nickname, String day, String month, String year,
+                                         String phone, String city, String location ) {
 
         driver.findElement(Locators.TEXT_FIELD_NICKNAME).sendKeys(nickname);
         driver.findElement(Locators.LIST_DAYS).click();
@@ -54,6 +55,7 @@ public class MainPage extends BaseActions {
         WebElement checkboxConfirmation = driver.findElement(Locators.CHECKBOX_CONFIRMATION);
         checkboxConfirmation.click();
 
+        driver.findElement(Locators.AUTOFILLING_FORM).clear();
         driver.findElement(Locators.AUTOFILLING_FORM).sendKeys(city);
         clickValueOfLists(Locators.LIST_VALUE_LOCATIONS, location);
 
