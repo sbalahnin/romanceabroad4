@@ -1,6 +1,5 @@
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
