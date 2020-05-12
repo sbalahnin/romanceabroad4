@@ -2,10 +2,17 @@ public class Data {
     public static final String mainUrl = "https://romanceabroad.com/";
     public static final String email = "abc@gmail.com";
     public static final String password = "Oregon";
-    public static final String nickname = "Testing";
+    public static final String nickname1 = "Testing";
+    public static final String nickname = MainPage.generateNewNumber(Data.nickname1,Data.lenthSecondPartOfNickname);
+    public static final int lenthSecondPartOfNickname = 5;
+
     public static final String city = "Sydney";
     public static final String location = "North Sydney, State of New South Wales";
     public static final String phone = "888-999-1111";
+    public static final String email1 = "11@gmail.com";
+    public static final String email2 = "11yahoo.com";
+    public static final String email3 = "11@mail.com";
+
 
     //Contact Us Page
     public static final String yourName = "John";

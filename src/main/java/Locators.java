@@ -39,6 +39,7 @@ public class Locators {
     public static final By TEXT_FIELD_PASSWORD = By.cssSelector("input#password");
     public static final By TEXT_FIELD_NICKNAME = By.cssSelector("input#nickname");
     public static final By TEXT_FIELD_PHONE = By.cssSelector("input[name='data[phone]']");
+    public static final By TOOLTIP_ERROR = By.xpath("//div[@class='tooltip']");
 
     //Day drop down selected
     public static final By LIST_DAYS = By.xpath("//div[@id='daySelect']");

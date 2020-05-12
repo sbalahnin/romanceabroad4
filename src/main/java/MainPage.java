@@ -34,12 +34,18 @@ public class MainPage extends BaseActions {
         driver.findElement(Locators.TEXT_FIELD_EMAIL).sendKeys(email);
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(Locators.TEXT_FIELD_PASSWORD)));
         driver.findElement(Locators.TEXT_FIELD_PASSWORD).sendKeys(password);
+
+    }
+
+    public void clickNextButton() {
         wait.until(ExpectedConditions.elementToBeClickable(Locators.BUTTON_NEXT));
         driver.findElement(Locators.BUTTON_NEXT).click();
+
+
     }
 
     public void secondPartOfRegistration(String nickname, String day, String month, String year,
-                                         String phone, String city, String location ) {
+                                         String phone, String city, String location) {
 
         driver.findElement(Locators.TEXT_FIELD_NICKNAME).sendKeys(nickname);
         driver.findElement(Locators.LIST_DAYS).click();
@@ -60,7 +66,7 @@ public class MainPage extends BaseActions {
         clickValueOfLists(Locators.LIST_VALUE_LOCATIONS, location);
 
     }
-    
+
 
     public String verifyBlogLink() {
         driver.findElements(Locators.BLOG_LINK).get(Locators.indexLinkBlog).click();
@@ -115,7 +121,8 @@ public class MainPage extends BaseActions {
         WebElement buttonPlay = driver.findElement(Locators.YOUTUBE_PLAY_BUTTON);
         return buttonPlay;
     }
-    public String verifyContactUsLink(){
+
+    public String verifyContactUsLink() {
         driver.findElement(Locators.LINK_CONTACT_US).click();
         currentUrlContactUs = driver.getCurrentUrl();
         return currentUrlContactUs;
