@@ -1,3 +1,5 @@
+package com.romanceabroad.ui;
+
 import org.openqa.selenium.By;
 
 public class Locators {
@@ -5,7 +7,7 @@ public class Locators {
     public static final By HI_TITLE = By.xpath("//h1");
 
 
-    //MainPage
+    //com.romanceabroad.ui.MainPage
     public static final By YOUTUBE_LINK = By.xpath("//iframe[@src='https://www.youtube.com/embed/RRECuJzm3IY?start=85']");
     public static final By YOUTUBE_PLAY_BUTTON = By.cssSelector("button.ytp-large-play-button.ytp-button");
     public static final By TITLE_OF_PAGE = By.xpath("//h1");
@@ -65,6 +67,9 @@ public class Locators {
     public static final By LINK_SEARCH = By.xpath("//a[@href='https://romanceabroad.com/users/search']");
     public static final By DROP_DOWN_LIST_SORT_BY = By.xpath("//div[@class='form-inline']//select");
     public static final By DROP_DOWN_MAX_AGE = By.cssSelector("select#age_max");
+    public static final By DROP_DOWN_MIN_AGE = By.cssSelector("select#age_min");
+    public static final By BUTTON_SEARCH = By.cssSelector("#main_search_button_user_advanced");
+
 
 
                          //Homework 14:  Create 10 xpath with 2 attributes

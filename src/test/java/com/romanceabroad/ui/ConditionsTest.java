@@ -1,6 +1,6 @@
-import org.openqa.selenium.By;
+package com.romanceabroad.ui;
+
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.json.JsonOutput;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -49,7 +49,7 @@ public class ConditionsTest extends BaseUI {
     }
     /*@Test
     public void testCase4 (){
-        WebElement tabSearch = driver.findElement(Locators.LINK_SEARCH);
+        WebElement tabSearch = driver.findElement(com.romanceabroad.ui.Locators.LINK_SEARCH);
 
         if (tabSearch.isDisplayed()){
             tabSearch.click();
@@ -66,7 +66,7 @@ public class ConditionsTest extends BaseUI {
             mainPage.secondPartOfRegistration();
 
 
-            WebElement checkbox = driver.findElement(Locators.CHECKBOX_CONFIRMATION);
+            WebElement checkbox = driver.findElement(com.romanceabroad.ui.Locators.CHECKBOX_CONFIRMATION);
 
             if (!checkbox.isSelected()){
                 checkbox.click();

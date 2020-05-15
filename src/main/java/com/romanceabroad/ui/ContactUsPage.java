@@ -1,5 +1,6 @@
+package com.romanceabroad.ui;
+
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ContactUsPage extends BaseActions {
@@ -9,7 +10,7 @@ public class ContactUsPage extends BaseActions {
     }
 
    // public void verifyDropDownListOnContactUsPage() {
-     //   WebElement dropDownListOnContactUsPage = driver.findElement(Locators.DROP_DOWN_LIST_REASON);
+     //   WebElement dropDownListOnContactUsPage = driver.findElement(com.romanceabroad.ui.Locators.DROP_DOWN_LIST_REASON);
     //    getDropDownListByText(dropDownListOnContactUsPage, "Technical Support");
     //}
 
@@ -23,7 +24,7 @@ public class ContactUsPage extends BaseActions {
         driver.findElement(Locators.TEXT_FIELD_SUBJECT).sendKeys(subject);
         driver.findElement(Locators.TEXT_FIELD_MESSAGE).clear();
         driver.findElement(Locators.TEXT_FIELD_MESSAGE).sendKeys(message);
-        // driver.findElement(Locators.BUTTON_SUBMIT).click();
+        // driver.findElement(com.romanceabroad.ui.Locators.BUTTON_SUBMIT).click();
 
 
     }

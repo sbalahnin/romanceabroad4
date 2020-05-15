@@ -8,7 +8,7 @@
 
         <classes>
 
-            <class name="MediaTest"/>
+            <class name="com.romanceabroad.ui.MediaTest"/>
 
         </classes>
 
@@ -20,7 +20,7 @@
 
         <classes>
 
-            <class name="RegistrationTests"/>
+            <class name="com.romanceabroad.ui.RegistrationTests"/>
         </classes>
 
     </test>-->
@@ -29,7 +29,7 @@
         <parameter name="browser" value="chrome"/>
 
         <classes>
-            <class name="RegistrationTests">
+            <class name="com.romanceabroad.ui.RegistrationTests">
 
             </class>
         </classes>

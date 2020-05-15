@@ -1,3 +1,4 @@
+package com.romanceabroad.ui;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -22,7 +23,7 @@ public class BaseUI {
     SoftAssert softAssert = new SoftAssert();
 
 
-    @BeforeMethod (groups ={"user", "admin", "ie"}, alwaysRun = true)
+    @BeforeMethod(groups = {"user", "admin", "ie"}, alwaysRun = true)
     @Parameters("browser")
     public void setup(@Optional("chrome") String browser, Method method) throws Exception {
         // Check if parameter passed from TestNG is 'firefox'

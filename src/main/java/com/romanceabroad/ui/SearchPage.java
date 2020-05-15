@@ -1,3 +1,4 @@
+package com.romanceabroad.ui;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -13,6 +14,9 @@ public class SearchPage extends BaseActions {
         WebElement dropDownListSortBy = driver.findElement(Locators.DROP_DOWN_LIST_SORT_BY);
         getDropDownListByValue(dropDownListSortBy, "date_created");
 
+    }
+    public void clickSearchButton (){
+        driver.findElement(Locators.BUTTON_SEARCH).click();
     }
 
 }
