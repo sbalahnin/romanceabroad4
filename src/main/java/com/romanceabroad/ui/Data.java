@@ -22,6 +22,11 @@ public class Data {
     public static final String subject = "information";
     public static final String message = "Please contact me ASAP";
     public static final String expectedUrlContactUs = "https://romanceabroad.com/tickets/";
+    public static final String expectedTitleAllPhotos = "Ukrainian women photos";
+    public static final String expectedTitleGallery = "Gallery";
+    public static final String expectedTitlePhotGallery = "Photo gallery";
+    public static final String expectedTitleVideoGallery = "Video gallery";
+    public static final String expectedTitleGalleryAlbums = "Gallery albums";
 
 
 

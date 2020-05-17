@@ -23,7 +23,7 @@ public class DataProviders {
                   {"18", "80", "Default"},
                     //{"18", "19", "Name"},
                     //{"30", "40", "Views"},
-                    //{"60", "81", "Registration date"},
+                    //{"60", "80", "Registration date"},
 
             };
         }

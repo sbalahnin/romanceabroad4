@@ -41,8 +41,6 @@ public class SearchTest extends BaseUI {
     public void searchDifferentResults12(String minAge, String maxAge, String sortBy) {
         int min = Integer.parseInt(minAge);
         int max = Integer.parseInt(maxAge);
-        System.out.println(min);
-        System.out.println(max);
 
         mainPage.verifySearchLink();
         mainPage.javaWaitSec(3);
@@ -52,11 +50,20 @@ public class SearchTest extends BaseUI {
         searchPage.clickSearchButton();
 
         List<WebElement> infoAboutUser = driver.findElements(By.xpath("//div[@class ='text-overflow']"));
-        for (int i = 0; i <infoAboutUser.size() ; i++) {
-            String info = infoAboutUser.get(i).getText();
-            System.out.println(info);
+        for (int i = 0; i < infoAboutUser.size(); i++) {
+            if (i % 2 == 0) {
 
-            
+                String info = infoAboutUser.get(i).getText();
+                String[] splitedPhrase = info.split(", ");
+                String age = splitedPhrase[1];
+                int ageNum = Integer.parseInt(age);
+                if (min <= ageNum || ageNum <= max) {
+                    System.out.println("This age is: " + ageNum + " is correct");
+                } else {
+                    Assert.fail("Wrong age: " + ageNum);
+                }
+
+            }
         }
     }
 

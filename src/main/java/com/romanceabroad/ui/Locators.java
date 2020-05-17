@@ -24,8 +24,9 @@ public class Locators {
     //TourToUkraine Link
     public static final By TOUR_TO_UKRAINE_LINK = By.xpath("//a[@href='https://romanceabroad.com/store/sweets/20-tour_to_ukraine'][text()='TOUR TO UKRAINE']");
 
-    //Media page
+    //Photos page
     public static final By LINK_MEDIA = By.cssSelector("a[href='https://romanceabroad.com/media/index']");
+    public static final By LINK_TAB_USER_PROFILE = By.xpath("//ul[@id='gallery_filters']//a");
 
     //Blog page
     public static final By BLOG_LINK = By.cssSelector("a[class='nav-link ']");
@@ -117,6 +118,8 @@ public class Locators {
     public static final By TEXT_FIELD_SUBJECT = By.xpath("//input[@name='subject']");
     public static final By TEXT_FIELD_MESSAGE = By.xpath("//textarea[@name='message']");
     public static final By BUTTON_SUBMIT = By.xpath("//input[@type='submit']");
+
+
 
 
 }

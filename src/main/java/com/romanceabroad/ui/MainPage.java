@@ -17,7 +17,7 @@ public class MainPage extends BaseActions {
     String currentUrlBlog;
     String currentUrlGifts;
     String currentUrlHowWeWork;
-    String currentUrlMedia;
+    String currentUrlPhotos;
     String currentUrlSignIn;
     String currentUrlTourUkraine;
     String currentUrlSearch;
@@ -86,12 +86,12 @@ public class MainPage extends BaseActions {
         return currentUrlHowWeWork;
     }
 
-    public String verifyMediaLink() {
+    public String verifyPhotosLink() {
         wait.until(ExpectedConditions.elementToBeClickable(Locators.LINK_MEDIA));
         driver.findElement(Locators.LINK_MEDIA).click();
         javaWaitSec(5);
-        currentUrlMedia = driver.getCurrentUrl();
-        return currentUrlMedia;
+        currentUrlPhotos = driver.getCurrentUrl();
+        return currentUrlPhotos;
     }
 
     public String verifySignInLink() {
