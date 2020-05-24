@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a828a06-9c40-4fec-96ea-84351915c78e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/PhotosPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/DataProviders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/DataProviders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/MediaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/PhotosTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/PhotosTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/PhotosTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +70,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GiftsTest.testGiftsLink" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romanceabroad4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.romanceabroad.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.GiftsTest" />
+      <option name="METHOD_NAME" value="testGiftsLink" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HomeTest.MainPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romanceabroad4" />
       <extension name="coverage">
@@ -132,18 +145,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTests.testRegistration2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romanceabroad4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.RegistrationTests" />
-      <option name="METHOD_NAME" value="testRegistration2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SearchTest.searchDifferentResults12" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romanceabroad4" />
       <extension name="coverage">
@@ -165,18 +166,18 @@
     <list>
       <item itemvalue="TestNG.RegistrationTest.testRegistration " />
       <item itemvalue="TestNG.C:/Users/sbala/Project/romance/romanceabroad4/TestNG.xml" />
-      <item itemvalue="TestNG.RegistrationTests.testRegistration2" />
       <item itemvalue="TestNG.SearchTest.searchDifferentResults12" />
       <item itemvalue="TestNG.HomeTest.MainPageTest" />
       <item itemvalue="TestNG.PhotosTests.testUserTabs" />
+      <item itemvalue="TestNG.GiftsTest.testGiftsLink" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.PhotosTests.testUserTabs" />
+        <item itemvalue="TestNG.GiftsTest.testGiftsLink" />
         <item itemvalue="TestNG.SearchTest.searchDifferentResults12" />
         <item itemvalue="TestNG.HomeTest.MainPageTest" />
         <item itemvalue="TestNG.C:/Users/sbala/Project/romance/romanceabroad4/TestNG.xml" />
-        <item itemvalue="TestNG.RegistrationTests.testRegistration2" />
       </list>
     </recent_temporary>
   </component>
@@ -246,22 +247,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587830416956" />
-    <state width="1493" height="411" key="GridCell.Tab.0.bottom" timestamp="1589752994957">
+    <state width="1493" height="411" key="GridCell.Tab.0.bottom" timestamp="1590283409131">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="411" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589752994957" />
-    <state width="1493" height="411" key="GridCell.Tab.0.center" timestamp="1589752994957">
+    <state width="1493" height="411" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590283409131" />
+    <state width="1493" height="411" key="GridCell.Tab.0.center" timestamp="1590283409131">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="411" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589752994957" />
-    <state width="1493" height="411" key="GridCell.Tab.0.left" timestamp="1589752994957">
+    <state width="1493" height="411" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590283409131" />
+    <state width="1493" height="411" key="GridCell.Tab.0.left" timestamp="1590283409131">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="411" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589752994956" />
-    <state width="1493" height="411" key="GridCell.Tab.0.right" timestamp="1589752994957">
+    <state width="1493" height="411" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590283409131" />
+    <state width="1493" height="411" key="GridCell.Tab.0.right" timestamp="1590283409131">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="411" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589752994957" />
+    <state width="1493" height="411" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590283409131" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1585421405712">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

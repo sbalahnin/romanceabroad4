@@ -46,6 +46,8 @@ public class Data {
     public static final String expectedTitleHowWeWork = "Ukrainian women for marriage";
     public static final String expectedTitlePrettyWomen = "Single Ukrainian women online";
 
+//Media
+    public static final String textMedia = "On our website you have access to photos of all different kinds of women";
 
 
 }
