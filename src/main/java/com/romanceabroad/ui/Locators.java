@@ -70,10 +70,20 @@ public class Locators {
     public static final By DROP_DOWN_MAX_AGE = By.cssSelector("select#age_max");
     public static final By DROP_DOWN_MIN_AGE = By.cssSelector("select#age_min");
     public static final By BUTTON_SEARCH = By.cssSelector("#main_search_button_user_advanced");
+    public static final By USER_PROFILE_NAME = By.xpath("//a[@class='g-users-gallery__name']");
+    public static final By PROFILE_USER_IMAGE = By.xpath("//a[@id='user_photo']//img[@title='Marina_mari_']");
+    public static final By USER_CONTENT_GALLERY = By.xpath("//a[@id='user_photo']//img[@title='Marina_mari_']");
+
+    //User Profile page
+    public static final By H2_TITLE =By.xpath("//h2");
+    public static final By BUTTON_SEND_MESSAGE_ON_PROFILE_PAGE =By.xpath("//button[text()='Send message']");
+    public static final By DROP_DOWN_SORT_BY_USER_PROFILE_BY_DATE =By.xpath("//option[@value='date_add']");
+    public static final By DROP_DOWN_SORT_BY_USER_PROFILE_BY_VIEWS =By.xpath("//option[@value='views']");
+    public static final By DROP_DOWN_SORT_BY_USER_PROFILE_BY_COMMENTS =By.xpath("//option[@value='comments_count']");
+    public static final By LINK_USER_PROFILE_GALLERY =By.xpath("//a[@data-pjax-no-scroll='1'][@href='https://romanceabroad.com/users/view/330/gallery']");
 
 
-
-                         //Homework 14:  Create 10 xpath with 2 attributes
+    //Homework 14:  Create 10 xpath with 2 attributes
     //Pretty Women Page
     public static final By MENU_LIST_VIEW = By.xpath("//a[@href='javascript:void(0);'][@class='active']");
     public static final By BUTTON_SENT_MESSAGE = By.xpath("//button[@id='btn_write_message_836500'][@class='btn btn-secondary']");

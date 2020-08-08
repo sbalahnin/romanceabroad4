@@ -1,9 +1,16 @@
 package com.romanceabroad.ui;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
+import java.util.List;
 
 public class SearchPage extends BaseActions {
+    String currentMarinaUserUrl;
+
 
 
     public SearchPage(WebDriver driver, WebDriverWait wait) {
@@ -15,11 +22,23 @@ public class SearchPage extends BaseActions {
         getDropDownListByValue(dropDownListSortBy, "date_created");
 
     }
-    public void clickSearchButton (){
+
+    public void clickSearchButton() {
+
         driver.findElement(Locators.BUTTON_SEARCH).click();
     }
 
+    public String verifyMarinaUserUrl() {
+        driver.findElement(By.xpath("//a[text()='Marina_mari_']")).click();
+        currentMarinaUserUrl = driver.getCurrentUrl();
+        return currentMarinaUserUrl;
+
+    }
 }
+
+
+
+
 
 
 

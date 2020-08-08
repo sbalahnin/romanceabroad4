@@ -49,5 +49,8 @@ public class Data {
 //Media
     public static final String textMedia = "On our website you have access to photos of all different kinds of women";
 
+    //UserProfile
+   public static final String expectedUrlMarinaUser = "https://romanceabroad.com/users/view/330/profile";
+   public static final String expectedUserProfileTitle = "PERSONAL INFORMATION";
 
 }

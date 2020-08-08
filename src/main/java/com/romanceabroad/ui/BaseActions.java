@@ -163,6 +163,10 @@ public class BaseActions {
         return title;
     }
 
+    public String userProfileSectionTitle(){
+        String profileSectionTitle = driver.findElement(Locators.H2_TITLE).getText();
+        return profileSectionTitle;
+    }
 }
 
 

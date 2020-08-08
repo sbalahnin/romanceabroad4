@@ -1,14 +1,16 @@
 package com.romanceabroad.ui;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class SearchTest extends BaseUI {
+    String nameOfUser;
+    String titleOfUserSection;
+
+
     public static final boolean testCase10 = true;
     public static final boolean testCase11 = true;
     public static final boolean testCase12 = true;
@@ -67,6 +69,63 @@ public class SearchTest extends BaseUI {
         }
     }
 
+    @Test
+    public void searchForAllUsers() {
+        mainPage.verifySearchLink();
+        mainPage.javaWait(3000);
+        List<WebElement> checkAllUserProfile = driver.findElements(Locators.USER_PROFILE_NAME);
+        for (int i = 0; i < checkAllUserProfile.size(); i++) {
+            WebElement listOfUsers = checkAllUserProfile.get(i);
+            nameOfUser = listOfUsers.getText();
+            if (nameOfUser.contains("Marina")) {
+                listOfUsers.click();
+                Assert.assertTrue(driver.findElement(Locators.PROFILE_USER_IMAGE).isDisplayed(), "Image is displayed");
+                System.out.println("Image is displayed");
+            } else {
+                System.out.println("Image is missing");
+            }
+            checkAllUserProfile = driver.findElements(Locators.USER_PROFILE_NAME);
+
+
+        }
+    }
+
+    @Test
+    public void verifyMarinaUserProfile() {
+        mainPage.verifySearchLink();
+        mainPage.javaWait(3000);
+        String marinaUserUrl = searchPage.verifyMarinaUserUrl();
+        System.out.println(marinaUserUrl);
+        Assert.assertEquals(marinaUserUrl, Data.expectedUrlMarinaUser);
+        Assert.assertTrue(driver.findElement(Locators.BUTTON_SEND_MESSAGE_ON_PROFILE_PAGE).isDisplayed(),
+                "Send Message button is displayed");
+        System.out.println("Send Message button is displayed on a page");
+        titleOfUserSection = searchPage.userProfileSectionTitle();
+        Assert.assertEquals(titleOfUserSection, Data.expectedUserProfileTitle);
+        System.out.println(titleOfUserSection);
+
+    }
+    @Test
+    public void searchAllOptionFromDropDownList() {
+        mainPage.verifySearchLink();
+        mainPage.javaWait(3000);
+        String marinaUserUrl = searchPage.verifyMarinaUserUrl();
+        System.out.println(marinaUserUrl);
+        driver.findElement(Locators.LINK_USER_PROFILE_GALLERY).click();
+        mainPage.javaWaitSec(3);
+        driver.findElement(Locators.DROP_DOWN_SORT_BY_USER_PROFILE_BY_DATE).click();
+        Assert.assertTrue(driver.findElement(Locators.USER_CONTENT_GALLERY).isDisplayed(), "Photos are displayed");
+        System.out.println("User has pictures on the page sorted by Date");
+        driver.findElement(Locators.DROP_DOWN_SORT_BY_USER_PROFILE_BY_COMMENTS).click();
+        Assert.assertTrue(driver.findElement(Locators.USER_CONTENT_GALLERY).isDisplayed(), "Photos are displayed");
+        System.out.println("User has pictures on the page sorted by Comments");
+        driver.findElement(Locators.DROP_DOWN_SORT_BY_USER_PROFILE_BY_VIEWS).click();
+        Assert.assertTrue(driver.findElement(Locators.USER_CONTENT_GALLERY).isDisplayed(), "Photos are displayed");
+        System.out.println("User has pictures on the page sorted by View");
+
+
+
+    }
 }
 
 

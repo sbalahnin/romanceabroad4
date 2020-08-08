@@ -17,16 +17,29 @@ public class DataProviders {
         };
     }
 
-        @DataProvider(name = "Search")
-        public static Object[][] testSearchFeature () {
-            return new Object[][]{
-                  {"18", "80", "Default"},
-                    //{"18", "19", "Name"},
-                    //{"30", "40", "Views"},
-                    //{"60", "80", "Registration date"},
+    @DataProvider(name = "Search")
+    public static Object[][] testSearchFeature() {
+        return new Object[][]{
+                {"18", "80", "Default"},
+                //{"18", "19", "Name"},
+                //{"30", "40", "Views"},
+                //{"60", "80", "Registration date"},
 
-            };
-        }
+        };
+    }
+
+//    @DataProvider(name = "Search2")
+//    public static Object[][] testSearchFeature2() {
+//        return new Object[][]{
+//                {"date_add"},
+//                {"views"},
+//                {"comments_count"},
+//                //{"18", "19", "Name"},
+//                //{"30", "40", "Views"},
+//                //{"60", "80", "Registration date"},
+//        };
+//    }
+
 
     @DataProvider(name = "Registration")
     public static Object[][] testRegistration() throws Exception {

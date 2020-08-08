@@ -1,5 +1,4 @@
 package com.romanceabroad.ui;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -120,6 +119,8 @@ public class MainPage extends BaseActions {
     public WebElement findYoutubePlayButton() {
         WebElement buttonPlay = driver.findElement(Locators.YOUTUBE_PLAY_BUTTON);
         return buttonPlay;
+
+
     }
 
     public String verifyContactUsLink() {
