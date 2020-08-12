@@ -34,6 +34,15 @@ public class Data {
     public static final String month = "May";
     public static final String year = "1998";
 
+    //Sign In page
+    public static final String emailSignIn1 = "";
+    public static final String emailSignIn2 = "sergey@gmail.com";
+    public static final String passwordSignIn1 = "";
+    public static final String passwordSignIn2 = "T12345";
+    public static final String signInErrorMessage = "Error message is displayed";
+
+
+
 
     public static final String expectedUrlMedia = "https://romanceabroad.com/media/index";
     public static final String expectedUrlSearch = "https://romanceabroad.com/users/search";

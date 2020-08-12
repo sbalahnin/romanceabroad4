@@ -39,6 +39,14 @@ public class DataProviders {
 //                //{"60", "80", "Registration date"},
 //        };
 //    }
+@DataProvider(name = "SignIn")
+    public static Object[][] testSignInFeature() {
+        return new Object[][]{
+                {Data.emailSignIn1, Data.passwordSignIn1},
+                {Data.emailSignIn2, Data.passwordSignIn1},
+                {Data.emailSignIn1, Data.passwordSignIn2},
+        };
+    }
 
 
     @DataProvider(name = "Registration")

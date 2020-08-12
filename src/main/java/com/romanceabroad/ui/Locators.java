@@ -34,6 +34,10 @@ public class Locators {
 
     //SignIn page
     public static final By LINK_SIGN_IN = By.xpath("//a[@href='https://romanceabroad.com/users/login_form']");
+    public static final By TEXT_FIELD_SIGN_IN_EMAIL = By.xpath("//div[@class='col-xs-8']//input[@id='email']");
+    public static final By TEXT_FIELD_SIGN_IN_PASSWORD = By.xpath("//div[@class='col-xs-8']//input[@id='password']");
+    public static final By BUTTON_SIGN_IN = By.xpath("//button[@type='submit']");
+    public static final By SIGN_IN_ERROR_MESSAGE = By.xpath("//div[@class='error alert-danger alert-warning_pop_']");
 
     //Registration
     public static final By BUTTON_REGISTRATION = By.xpath("//button[@id='show-registration-block']");
