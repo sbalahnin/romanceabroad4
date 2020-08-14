@@ -9,6 +9,8 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 
 public class ContactUsTests extends BaseUI {
+    String contactUsLink;
+
     @DataProvider(name = "ContactUs")
     public static Object[][] testContactUs2() throws Exception {
         ArrayList<Object[]> out = new ArrayList<>();
@@ -20,10 +22,10 @@ public class ContactUsTests extends BaseUI {
     }
 
     @Test (dataProvider = "ContactUs")
-    public void checkContactAdministratorForm(String message ) {
+    public void checkContactAdministratorForm(String message) {
         mainPage.verifySearchLink();
-        mainPage.javaWaitSec(4);
-        String contactUsLink = mainPage.verifyContactUsLink();
+        mainPage.javaWaitSec(10);
+        contactUsLink = searchPage.verifyContactUsLink();
         System.out.println(contactUsLink);
         Assert.assertEquals(contactUsLink, Data.expectedUrlContactUs);
         int sizeOfDropDownListReasonOnContactUsPage = contactUsPage.getSizeDropDownList(Locators.DROP_DOWN_LIST_REASON);

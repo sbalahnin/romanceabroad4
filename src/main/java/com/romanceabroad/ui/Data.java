@@ -5,7 +5,7 @@ public class Data {
     public static final String email = "abc@gmail.com";
     public static final String password = "Oregon";
     public static final String nickname1 = "Testing";
-    public static final String nickname = MainPage.generateNewNumber(Data.nickname1,Data.lenthSecondPartOfNickname);
+    public static final String nickname = MainPage.generateNewNumber(Data.nickname1, Data.lenthSecondPartOfNickname);
     public static final int lenthSecondPartOfNickname = 5;
 
     public static final String city = "Sydney";
@@ -29,7 +29,6 @@ public class Data {
     public static final String expectedTitleGalleryAlbums = "Gallery albums";
 
 
-
     public static final String day = "1";
     public static final String month = "May";
     public static final String year = "1998";
@@ -40,8 +39,6 @@ public class Data {
     public static final String passwordSignIn1 = "";
     public static final String passwordSignIn2 = "T12345";
     public static final String signInErrorMessage = "Error message is displayed";
-
-
 
 
     public static final String expectedUrlMedia = "https://romanceabroad.com/media/index";
@@ -55,11 +52,16 @@ public class Data {
     public static final String expectedTitleHowWeWork = "Ukrainian women for marriage";
     public static final String expectedTitlePrettyWomen = "Single Ukrainian women online";
 
-//Media
+    //Media
     public static final String textMedia = "On our website you have access to photos of all different kinds of women";
 
     //UserProfile
-   public static final String expectedUrlMarinaUser = "https://romanceabroad.com/users/view/330/profile";
-   public static final String expectedUserProfileTitle = "PERSONAL INFORMATION";
+    public static final String expectedUrlMarinaUser = "https://romanceabroad.com/users/view/330/profile";
+    public static final String expectedUserProfileTitle = "PERSONAL INFORMATION";
+    public static final String expectedTitleContactUs = "Contact administrator";
+    public static final String expectedTitleSiteMap = "Site map";
+    public static final String expectedTitleNews = "News";
+    public static final String expectedTitlePrivacy = "Privacy Policy";
+    public static final String expectedTitleTermsOfUse = "Terms of use";
 
 }

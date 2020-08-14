@@ -157,6 +157,9 @@ public class BaseActions {
 
         }
     }
+    public void scrollToBottomPage(){
+        ((JavascriptExecutor) driver).executeScript("window.scrollTo(O,document.body.scrollHeight);");
+    }
 
     public String getAnyTitle() {
         String title = driver.findElement(Locators.HI_TITLE).getText();

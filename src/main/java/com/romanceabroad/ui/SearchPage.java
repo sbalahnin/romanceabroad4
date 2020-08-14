@@ -10,7 +10,7 @@ import java.util.List;
 
 public class SearchPage extends BaseActions {
     String currentMarinaUserUrl;
-
+    String currentUrlContactUs;
 
 
     public SearchPage(WebDriver driver, WebDriverWait wait) {
@@ -21,6 +21,11 @@ public class SearchPage extends BaseActions {
         WebElement dropDownListSortBy = driver.findElement(Locators.DROP_DOWN_LIST_SORT_BY);
         getDropDownListByValue(dropDownListSortBy, "date_created");
 
+    }
+    public String verifyContactUsLink() {
+        driver.findElement(Locators.LINK_CONTACT_US).click();
+        currentUrlContactUs = driver.getCurrentUrl();
+        return currentUrlContactUs;
     }
 
     public void clickSearchButton() {
@@ -33,6 +38,11 @@ public class SearchPage extends BaseActions {
         currentMarinaUserUrl = driver.getCurrentUrl();
         return currentMarinaUserUrl;
 
+    }
+
+    public List<WebElement> collectAllLinksOfFooter() {
+        List<WebElement> footerLinks = driver.findElements(Locators.FOOTER_LINKS);
+        return footerLinks;
     }
 }
 

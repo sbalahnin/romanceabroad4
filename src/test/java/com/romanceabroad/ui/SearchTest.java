@@ -1,14 +1,20 @@
 package com.romanceabroad.ui;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class SearchTest extends BaseUI {
     String nameOfUser;
     String titleOfUserSection;
+    String nameOfLinks;
+    String titleOfPage;
+    String titleOfNewsPage;
 
 
     public static final boolean testCase10 = true;
@@ -105,6 +111,7 @@ public class SearchTest extends BaseUI {
         System.out.println(titleOfUserSection);
 
     }
+
     @Test
     public void searchAllOptionFromDropDownList() {
         mainPage.verifySearchLink();
@@ -124,6 +131,41 @@ public class SearchTest extends BaseUI {
         System.out.println("User has pictures on the page sorted by View");
 
 
+    }
+
+    @Test
+    public void testALlFooterLinks() {
+        mainPage.verifySearchLink();
+        mainPage.javaWaitSec(2);
+        List<WebElement> footerLinks = searchPage.collectAllLinksOfFooter();
+        for (int i = 0; i < footerLinks.size(); i++) {
+            WebElement link = footerLinks.get(i);
+            nameOfLinks = link.getText();
+            System.out.println("Link: " + nameOfLinks);
+            link.click();
+            mainPage.javaWaitSec(3);
+            if (i == 3){
+                titleOfNewsPage = driver.findElement(Locators.TITLE_NEWS_PAGE).getText();
+            }else
+            titleOfPage = searchPage.getAnyTitle();
+            System.out.println("Page Title: " + titleOfPage);
+            if (i == 0) {
+                Assert.assertEquals(titleOfPage, Data.expectedTitleContactUs);
+            } else if (i == 1) {
+                Assert.assertEquals(titleOfPage, Data.expectedTitleSiteMap);
+            } else if (i == 2) {
+                Assert.assertEquals(titleOfPage, Data.expectedTitleHowWeWork);
+            } else if (i == 3) {
+                Assert.assertEquals(titleOfNewsPage, Data.expectedTitleNews);
+            } else if (i == 4) {
+                Assert.assertEquals(titleOfPage, Data.expectedTitlePrivacy);
+            } else if (i == 5) {
+                Assert.assertEquals(titleOfPage, Data.expectedTitleTermsOfUse);
+               break;
+
+            }
+            footerLinks = searchPage.collectAllLinksOfFooter();
+        }
 
     }
 }

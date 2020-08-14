@@ -12,7 +12,6 @@ public class HowWeWorkTest extends BaseUI {
     String titleOfArticle;
 
 
-
     @Test
     public void testHowWeWorkLink() {
         String howWeWorkLink = mainPage.verifyHowWeWorkLink();
@@ -23,7 +22,7 @@ public class HowWeWorkTest extends BaseUI {
 
 
     @Test
-    public void testArticlesAndTitles () {
+    public void testArticlesAndTitles() {
         mainPage.verifyHowWeWorkLink();
         List<WebElement> linksOfArticles = howWeWorkPage.collectAllLinksOfArticles();
 
@@ -36,7 +35,10 @@ public class HowWeWorkTest extends BaseUI {
             linksOfArticles = howWeWorkPage.collectAllLinksOfArticles();
         }
     }
+
+
 }
+
 
 
 

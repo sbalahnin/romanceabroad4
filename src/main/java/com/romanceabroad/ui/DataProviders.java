@@ -42,9 +42,9 @@ public class DataProviders {
 @DataProvider(name = "SignIn")
     public static Object[][] testSignInFeature() {
         return new Object[][]{
-                {Data.emailSignIn1, Data.passwordSignIn1},
-                {Data.emailSignIn2, Data.passwordSignIn1},
-                {Data.emailSignIn1, Data.passwordSignIn2},
+                {Data.emailSignIn1, Data.passwordSignIn1, false},
+                {Data.emailSignIn2, Data.passwordSignIn1, false},
+                {Data.emailSignIn1, Data.passwordSignIn2, false},
         };
     }
 

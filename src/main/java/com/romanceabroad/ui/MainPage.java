@@ -20,7 +20,7 @@ public class MainPage extends BaseActions {
     String currentUrlSignIn;
     String currentUrlTourUkraine;
     String currentUrlSearch;
-    String currentUrlContactUs;
+
 
 
     public void clickJoinButton() {
@@ -123,11 +123,6 @@ public class MainPage extends BaseActions {
 
     }
 
-    public String verifyContactUsLink() {
-        driver.findElement(Locators.LINK_CONTACT_US).click();
-        currentUrlContactUs = driver.getCurrentUrl();
-        return currentUrlContactUs;
-    }
 
 }
 

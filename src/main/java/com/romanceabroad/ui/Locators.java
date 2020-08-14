@@ -125,13 +125,17 @@ public class Locators {
     public static final By LINK_RUSSIAN_LANGUAGE = By.xpath("//ul//li[@class='last']");
 
     //ContactUs page
-    public static final By LINK_CONTACT_US = By.xpath("//a[@href='https://romanceabroad.com/tickets/']");
+    public static final By LINK_CONTACT_US = By.xpath("//a[@href='https://romanceabroad.com/tickets/']//div[@class='footer-menu-list-group-item-text']");
     public static final By DROP_DOWN_LIST_REASON = By.cssSelector("select.form-control");
     public static final By TEXT_FIELD_YOUR_NAME = By.xpath("//input[@name='user_name']");
     public static final By TEXT_FIELD_EMAIL_ON_CONTACT_US_PAGE = By.xpath("//input[@name='user_email']");
     public static final By TEXT_FIELD_SUBJECT = By.xpath("//input[@name='subject']");
     public static final By TEXT_FIELD_MESSAGE = By.xpath("//textarea[@name='message']");
     public static final By BUTTON_SUBMIT = By.xpath("//input[@type='submit']");
+
+    // Links of Footer
+    public static final By FOOTER_LINKS = By.xpath("//div[@class='footer-menu-list-group-item-text']");
+    public static final By TITLE_NEWS_PAGE = By.cssSelector(".title.col-xs-12.col-sm-6.col-md-9.col-lg-9");
 
 
 
