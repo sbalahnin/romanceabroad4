@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-TestSuite" class="navigator-link">
+              <span class="suite-name border-failed">TestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-TestSuite" class="navigator-link ">
+                    <span>C:\Users\sbala\Project\romance\romanceabroad4\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-TestSuite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-TestSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-TestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-TestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-TestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-TestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods, 8 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TestSuite" class="hide-methods failed suite-TestSuite"> (hide)</a> <!-- hide-methods failed suite-TestSuite -->
+                      <a href="#" panel-name="suite-TestSuite" class="show-methods failed suite-TestSuite"> (show)</a> <!-- show-methods failed suite-TestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-TestSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration(Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois)">testRegistration(Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration(test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri)">testRegistration(test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration(contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia)">testRegistration(contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration(data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois)">testRegistration(data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration(test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri)">testRegistration(test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration2(11@mail.com, Testing45626, true)">testRegistration2(11@mail.com, Testing45626, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration2(11yahoo.com, Testing45626, false)">testRegistration2(11yahoo.com, Testing45626, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration2(11@gmail.com, Testing45626, true)">testRegistration2(11@gmail.com, Testing45626, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TestSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestSuite" class="hide-methods passed suite-TestSuite"> (hide)</a> <!-- hide-methods passed suite-TestSuite -->
+                      <a href="#" panel-name="suite-TestSuite" class="show-methods passed suite-TestSuite"> (show)</a> <!-- show-methods passed suite-TestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-TestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration(Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois)">testRegistration(Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration(contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia)">testRegistration(contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration(data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois)">testRegistration(data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration(Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois)">testRegistration(Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration(data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois)">testRegistration(data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration(test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri)">testRegistration(test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration(contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia)">testRegistration(contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration2(11yahoo.com, Testing45626, false)">testRegistration2(11yahoo.com, Testing45626, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration2(11@mail.com, Testing45626, true)">testRegistration2(11@mail.com, Testing45626, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration2(11@gmail.com, Testing45626, true)">testRegistration2(11@gmail.com, Testing45626, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration2(11yahoo.com, Testing45626, false)">testRegistration2(11yahoo.com, Testing45626, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration2(11@mail.com, Testing45626, true)">testRegistration2(11@mail.com, Testing45626, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration2(11@gmail.com, Testing45626, true)">testRegistration2(11@gmail.com, Testing45626, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestSuite" class="panel TestSuite">
+          <div class="suite-TestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.romanceabroad.ui.RegistrationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois)">
+                  </a> <!-- testRegistration(Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Element cannot be interacted with via the keyboard because it is not displayed
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OIDSKCV&apos;, ip: &apos;192.168.1.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:1124/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2ee7129c-7764-44f9-9c6d-a03b8a7ee0c7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at com.romanceabroad.ui.MainPage.completeFirstPartOfRegistration(MainPage.java:34)
+	at com.romanceabroad.ui.RegistrationTests.testRegistration(RegistrationTests.java:29)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri)">
+                  </a> <!-- testRegistration(test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Element cannot be interacted with via the keyboard because it is not displayed
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OIDSKCV&apos;, ip: &apos;192.168.1.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:23784/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6552fdd6-2731-4e56-8024-8f27629fff86
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at com.romanceabroad.ui.MainPage.completeFirstPartOfRegistration(MainPage.java:34)
+	at com.romanceabroad.ui.RegistrationTests.testRegistration(RegistrationTests.java:29)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia)">
+                  </a> <!-- testRegistration(contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Element cannot be interacted with via the keyboard because it is not displayed
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OIDSKCV&apos;, ip: &apos;192.168.1.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:37007/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 818634dd-ce22-4bdb-9cf5-986a3873fad3
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at com.romanceabroad.ui.MainPage.completeFirstPartOfRegistration(MainPage.java:34)
+	at com.romanceabroad.ui.RegistrationTests.testRegistration(RegistrationTests.java:29)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois)">
+                  </a> <!-- testRegistration(data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Element cannot be interacted with via the keyboard because it is not displayed
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OIDSKCV&apos;, ip: &apos;192.168.1.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:19342/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cb44adad-40c7-4295-bdf6-3ad66d6ceec7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at com.romanceabroad.ui.MainPage.completeFirstPartOfRegistration(MainPage.java:34)
+	at com.romanceabroad.ui.RegistrationTests.testRegistration(RegistrationTests.java:29)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri)">
+                  </a> <!-- testRegistration(test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;li&gt; is not clickable at point (766.3000030517578,382.20001220703125) because another element &lt;div class=&quot;fa fa-spinner fa-spin&quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OIDSKCV&apos;, ip: &apos;192.168.1.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 29524, moz:profile: C:\Users\sbala\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 66debbc3-b9de-4ed2-9303-b5345fd07480
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.romanceabroad.ui.BaseActions.clickValueOfLists(BaseActions.java:156)
+	at com.romanceabroad.ui.MainPage.secondPartOfRegistration(MainPage.java:55)
+	at com.romanceabroad.ui.RegistrationTests.testRegistration(RegistrationTests.java:31)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration2(11@mail.com, Testing45626, true)">
+                  </a> <!-- testRegistration2(11@mail.com, Testing45626, true) -->
+                  <span class="method-name">testRegistration2</span>
+                  <span class="parameters">(11@mail.com, Testing45626, true)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Element cannot be interacted with via the keyboard because it is not displayed
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OIDSKCV&apos;, ip: &apos;192.168.1.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:6295/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e47df8f6-3de1-4f82-b97d-52aa564a0e65
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at com.romanceabroad.ui.MainPage.completeFirstPartOfRegistration(MainPage.java:34)
+	at com.romanceabroad.ui.RegistrationTests.testRegistration2(RegistrationTests.java:15)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration2(11yahoo.com, Testing45626, false)">
+                  </a> <!-- testRegistration2(11yahoo.com, Testing45626, false) -->
+                  <span class="method-name">testRegistration2</span>
+                  <span class="parameters">(11yahoo.com, Testing45626, false)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Element cannot be interacted with via the keyboard because it is not displayed
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OIDSKCV&apos;, ip: &apos;192.168.1.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:5303/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a24f4657-2a24-4395-9ba7-d1bf75f4474c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at com.romanceabroad.ui.MainPage.completeFirstPartOfRegistration(MainPage.java:34)
+	at com.romanceabroad.ui.RegistrationTests.testRegistration2(RegistrationTests.java:15)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration2(11@gmail.com, Testing45626, true)">
+                  </a> <!-- testRegistration2(11@gmail.com, Testing45626, true) -->
+                  <span class="method-name">testRegistration2</span>
+                  <span class="parameters">(11@gmail.com, Testing45626, true)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Element cannot be interacted with via the keyboard because it is not displayed
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OIDSKCV&apos;, ip: &apos;192.168.1.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:2312/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f3094904-6eb4-48b8-8bc4-d4fc289ac034
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at com.romanceabroad.ui.MainPage.completeFirstPartOfRegistration(MainPage.java:34)
+	at com.romanceabroad.ui.RegistrationTests.testRegistration2(RegistrationTests.java:15)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-failed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.romanceabroad.ui.RegistrationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois)">
+                  </a> <!-- testRegistration(Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia)">
+                  </a> <!-- testRegistration(contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois)">
+                  </a> <!-- testRegistration(data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois)">
+                  </a> <!-- testRegistration(Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois)">
+                  </a> <!-- testRegistration(data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri)">
+                  </a> <!-- testRegistration(test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia)">
+                  </a> <!-- testRegistration(contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration2(11yahoo.com, Testing45626, false)">
+                  </a> <!-- testRegistration2(11yahoo.com, Testing45626, false) -->
+                  <span class="method-name">testRegistration2</span>
+                  <span class="parameters">(11yahoo.com, Testing45626, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration2(11@mail.com, Testing45626, true)">
+                  </a> <!-- testRegistration2(11@mail.com, Testing45626, true) -->
+                  <span class="method-name">testRegistration2</span>
+                  <span class="parameters">(11@mail.com, Testing45626, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration2(11@gmail.com, Testing45626, true)">
+                  </a> <!-- testRegistration2(11@gmail.com, Testing45626, true) -->
+                  <span class="method-name">testRegistration2</span>
+                  <span class="parameters">(11@gmail.com, Testing45626, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration2(11yahoo.com, Testing45626, false)">
+                  </a> <!-- testRegistration2(11yahoo.com, Testing45626, false) -->
+                  <span class="method-name">testRegistration2</span>
+                  <span class="parameters">(11yahoo.com, Testing45626, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration2(11@mail.com, Testing45626, true)">
+                  </a> <!-- testRegistration2(11@mail.com, Testing45626, true) -->
+                  <span class="method-name">testRegistration2</span>
+                  <span class="parameters">(11@mail.com, Testing45626, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration2(11@gmail.com, Testing45626, true)">
+                  </a> <!-- testRegistration2(11@gmail.com, Testing45626, true) -->
+                  <span class="method-name">testRegistration2</span>
+                  <span class="parameters">(11@gmail.com, Testing45626, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+        </div> <!-- panel TestSuite -->
+        <div panel-name="test-xml-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sbala\Project\romance\romanceabroad4\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;TestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;IETestCases&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;ie&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.romanceabroad.ui.RegistrationTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- IETestCases --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;FirefoxTestCases&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.romanceabroad.ui.RegistrationTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FirefoxTestCases --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTestCases&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.romanceabroad.ui.RegistrationTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTestCases --&gt;
+&lt;/suite&gt; &lt;!-- TestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">IETestCases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">FirefoxTestCases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ChromeTestCases (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestSuite');
+function tableData_TestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testRegistration2')
+data.setCell(0, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(0, 3, 9061);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testRegistration')
+data.setCell(1, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(1, 3, 7745);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testRegistration')
+data.setCell(2, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(2, 3, 7729);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testRegistration2')
+data.setCell(3, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(3, 3, 7715);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testRegistration')
+data.setCell(4, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(4, 3, 6857);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testRegistration')
+data.setCell(5, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(5, 3, 6812);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testRegistration2')
+data.setCell(6, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(6, 3, 6671);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testRegistration')
+data.setCell(7, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(7, 3, 6540);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testRegistration')
+data.setCell(8, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(8, 3, 6385);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testRegistration2')
+data.setCell(9, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(9, 3, 6319);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testRegistration')
+data.setCell(10, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(10, 3, 6155);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testRegistration')
+data.setCell(11, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(11, 3, 2394);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testRegistration')
+data.setCell(12, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(12, 3, 1192);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testRegistration2')
+data.setCell(13, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(13, 3, 1111);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testRegistration')
+data.setCell(14, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(14, 3, 1099);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testRegistration2')
+data.setCell(15, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(15, 3, 1098);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testRegistration')
+data.setCell(16, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(16, 3, 1051);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testRegistration')
+data.setCell(17, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(17, 3, 1008);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testRegistration2')
+data.setCell(18, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(18, 3, 978);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testRegistration2')
+data.setCell(19, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(19, 3, 719);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testRegistration2')
+data.setCell(20, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(20, 3, 628);
+window.suiteTableData['TestSuite']= { tableData: data, tableDiv: 'times-div-TestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-TestSuite">
+              </div> <!-- times-div-TestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.romanceabroad.ui.RegistrationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(ie, public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.lang.S...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testRegistration(Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois)</span>
+                <span class="method-start">7431 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions</span>
+                <span class="method-start">8488 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(ie, public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.lang.S...)</span>
+                <span class="method-start">8488 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testRegistration(test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri)</span>
+                <span class="method-start">14911 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions</span>
+                <span class="method-start">15920 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(ie, public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.lang.S...)</span>
+                <span class="method-start">15920 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testRegistration(contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia)</span>
+                <span class="method-start">21916 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions</span>
+                <span class="method-start">23109 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(ie, public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.lang.S...)</span>
+                <span class="method-start">23110 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testRegistration(data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois)</span>
+                <span class="method-start">29465 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions</span>
+                <span class="method-start">30565 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(ie, public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java.lang....)</span>
+                <span class="method-start">30568 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testRegistration2(11@gmail.com, Testing45626, true)</span>
+                <span class="method-start">37083 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions</span>
+                <span class="method-start">38195 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(ie, public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java.lang....)</span>
+                <span class="method-start">38196 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testRegistration2(11yahoo.com, Testing45626, false)</span>
+                <span class="method-start">45076 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions</span>
+                <span class="method-start">46054 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(ie, public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java.lang....)</span>
+                <span class="method-start">46055 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testRegistration2(11@mail.com, Testing45626, true)</span>
+                <span class="method-start">53157 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions</span>
+                <span class="method-start">54256 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox, public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.l...)</span>
+                <span class="method-start">54326 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois)</span>
+                <span class="method-start">64084 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions</span>
+                <span class="method-start">70239 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox, public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.l...)</span>
+                <span class="method-start">70239 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testRegistration(test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri)</span>
+                <span class="method-start">78424 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions</span>
+                <span class="method-start">80819 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox, public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.l...)</span>
+                <span class="method-start">80820 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia)</span>
+                <span class="method-start">90301 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions</span>
+                <span class="method-start">96686 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox, public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.l...)</span>
+                <span class="method-start">96686 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois)</span>
+                <span class="method-start">105898 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions</span>
+                <span class="method-start">112438 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox, public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java....)</span>
+                <span class="method-start">112439 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistration2(11@gmail.com, Testing45626, true)</span>
+                <span class="method-start">122072 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions</span>
+                <span class="method-start">128392 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox, public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java....)</span>
+                <span class="method-start">128392 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistration2(11yahoo.com, Testing45626, false)</span>
+                <span class="method-start">139189 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions</span>
+                <span class="method-start">139818 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox, public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java....)</span>
+                <span class="method-start">139818 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistration2(11@mail.com, Testing45626, true)</span>
+                <span class="method-start">150830 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions</span>
+                <span class="method-start">157501 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.la...)</span>
+                <span class="method-start">157534 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois)</span>
+                <span class="method-start">169578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions</span>
+                <span class="method-start">176435 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.la...)</span>
+                <span class="method-start">176435 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri)</span>
+                <span class="method-start">187725 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions</span>
+                <span class="method-start">194537 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.la...)</span>
+                <span class="method-start">194540 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia)</span>
+                <span class="method-start">207637 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions</span>
+                <span class="method-start">215383 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.la...)</span>
+                <span class="method-start">215383 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois)</span>
+                <span class="method-start">226371 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions</span>
+                <span class="method-start">234100 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java.l...)</span>
+                <span class="method-start">234101 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistration2(11@gmail.com, Testing45626, true)</span>
+                <span class="method-start">245247 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions</span>
+                <span class="method-start">252963 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java.l...)</span>
+                <span class="method-start">252963 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistration2(11yahoo.com, Testing45626, false)</span>
+                <span class="method-start">266056 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions</span>
+                <span class="method-start">266775 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java.l...)</span>
+                <span class="method-start">266775 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistration2(11@mail.com, Testing45626, true)</span>
+                <span class="method-start">281704 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions</span>
+                <span class="method-start">290765 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

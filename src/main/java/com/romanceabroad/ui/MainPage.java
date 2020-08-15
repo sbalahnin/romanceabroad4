@@ -24,6 +24,7 @@ public class MainPage extends BaseActions {
 
 
     public void clickJoinButton() {
+        wait.until(ExpectedConditions.elementToBeClickable(Locators.BUTTON_REGISTRATION));
 
         driver.findElement(Locators.BUTTON_REGISTRATION).click();
     }

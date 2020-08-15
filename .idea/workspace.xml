@@ -36,24 +36,18 @@
   <component name="ChangeListManager">
     <list default="true" id="7a828a06-9c40-4fec-96ea-84351915c78e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/BaseActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/BaseActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/DataProviders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/DataProviders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/HowWeWorkPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/HowWeWorkPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Locators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/ContactUsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/ContactUsTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/HowWeWorkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/HowWeWorkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SignInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SignInTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/../.." userTempatePath="" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -82,10 +76,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Output" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -104,7 +99,53 @@
       <recent name="C:\Users\sbala\Project\romance-abroad4" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContactUsTests.checkContactAdministratorForm">
+  <component name="RunManager" selected="TestNG.RegistrationTests.testRegistration2">
+    <configuration name="romance [test]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="test" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/sbala/Project/romance/romanceabroad4/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="C:\Users\sbala\Project\romance\romanceabroad4\Output" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContactUsTests.checkContactAdministratorForm" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <extension name="coverage">
@@ -198,39 +239,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignInTest.negativeTestCases" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.romanceabroad.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.SignInTest" />
-      <option name="METHOD_NAME" value="negativeTestCases" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Maven.romance [test]" />
       <item itemvalue="TestNG.RegistrationTest.testRegistration " />
-      <item itemvalue="TestNG.SignInTest.negativeTestCases" />
-      <item itemvalue="TestNG.RegistrationTests.testRegistration2" />
       <item itemvalue="TestNG.HowWeWorkTest.testArticlesAndTitles" />
       <item itemvalue="TestNG.SearchTest.testALlFooterLinks" />
       <item itemvalue="TestNG.ContactUsTests.checkContactAdministratorForm" />
+      <item itemvalue="TestNG.C:/Users/sbala/Project/romance/romanceabroad4/TestNG.xml" />
+      <item itemvalue="TestNG.RegistrationTests.testRegistration2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RegistrationTests.testRegistration2" />
+        <item itemvalue="TestNG.C:/Users/sbala/Project/romance/romanceabroad4/TestNG.xml" />
         <item itemvalue="TestNG.ContactUsTests.checkContactAdministratorForm" />
         <item itemvalue="TestNG.SearchTest.testALlFooterLinks" />
         <item itemvalue="TestNG.HowWeWorkTest.testArticlesAndTitles" />
-        <item itemvalue="TestNG.SignInTest.negativeTestCases" />
-        <item itemvalue="TestNG.RegistrationTests.testRegistration2" />
       </list>
     </recent_temporary>
   </component>
@@ -289,10 +313,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="757" y="160" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1589250449322" />
-    <state x="223" y="67" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596647926498">
+    <state x="223" y="67" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597439133002">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1596647926498" />
+    <state x="223" y="67" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1597439133002" />
     <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1597359994832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -305,22 +329,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="571" y="281" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1589479237133" />
-    <state width="1493" height="444" key="GridCell.Tab.0.bottom" timestamp="1597373684746">
+    <state x="548" y="165" key="FileChooserDialogImpl" timestamp="1597433551291">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="444" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597373684746" />
-    <state width="1493" height="444" key="GridCell.Tab.0.center" timestamp="1597373684745">
+    <state x="548" y="165" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597433551291" />
+    <state width="1493" height="425" key="GridCell.Tab.0.bottom" timestamp="1597459496228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="444" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597373684745" />
-    <state width="1493" height="444" key="GridCell.Tab.0.left" timestamp="1597373684745">
+    <state width="1493" height="425" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597459496228" />
+    <state width="1493" height="425" key="GridCell.Tab.0.center" timestamp="1597459496227">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="444" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597373684745" />
-    <state width="1493" height="444" key="GridCell.Tab.0.right" timestamp="1597373684745">
+    <state width="1493" height="425" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597459496227" />
+    <state width="1493" height="425" key="GridCell.Tab.0.left" timestamp="1597459496227">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="444" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597373684745" />
+    <state width="1493" height="425" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597459496227" />
+    <state width="1493" height="425" key="GridCell.Tab.0.right" timestamp="1597459496227">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="425" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597459496227" />
     <state width="1493" height="289" key="GridCell.Tab.1.bottom" timestamp="1597373020437">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

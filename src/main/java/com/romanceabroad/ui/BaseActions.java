@@ -152,6 +152,7 @@ public class BaseActions {
             WebElement elementOfList = elements.get(i);
             String value = elementOfList.getText();
             if (value.contains(text)) {
+                wait.until(ExpectedConditions.elementToBeClickable(elementOfList));
                 elementOfList.click();
             }
 
