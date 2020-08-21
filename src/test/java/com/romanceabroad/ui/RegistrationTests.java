@@ -13,12 +13,15 @@ public class RegistrationTests extends BaseUI {
 
     @Video(name = "Registration Test")
     @Test(dataProvider = "Registration2", dataProviderClass = DataProviders.class)
-    public void testRegistration2(String email, String nickname, boolean reguirement) {
+    public void testRegistration2(String email, String nickname, boolean requirement) {
+
         System.out.println(email);
 
         mainPage.clickJoinButton();
         mainPage.completeFirstPartOfRegistration(email, Data.password);
-        if (!reguirement) {
+        if (!requirement) {
+
+            Reports.log("Error message is not being displayed");
             Assert.assertTrue(driver.findElement(Locators.TOOLTIP_ERROR).isDisplayed());
         } else {
             mainPage.clickNextButton();

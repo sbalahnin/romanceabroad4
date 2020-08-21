@@ -135,7 +135,7 @@ public class Locators {
 
     // Links of Footer
     public static final By FOOTER_LINKS = By.xpath("//div[@class='footer-menu-list-group-item-text']");
-    public static final By TITLE_NEWS_PAGE = By.cssSelector(".title.col-xs-12.col-sm-6.col-md-9.col-lg-9");
+    public static final By TITLE_NEWS_PAGE = By.xpath("//div[@class='search-header']//div[contains(@class, 'title')]");
 
 
 

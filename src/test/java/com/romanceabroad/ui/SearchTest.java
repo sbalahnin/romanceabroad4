@@ -2,6 +2,7 @@ package com.romanceabroad.ui;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -144,6 +145,11 @@ public class SearchTest extends BaseUI {
             System.out.println("Link: " + nameOfLinks);
             link.click();
             mainPage.javaWaitSec(3);
+
+
+             //else if(linkText.contains("News")) {
+               // String text = driver.findElement(By.xpath("//div[@class='search-header']//div[contains(@class, 'title')]")).getText();
+                //System.out.println(text+" !!!!!!!!!!!!!!");
             if (i == 3){
                 titleOfNewsPage = driver.findElement(Locators.TITLE_NEWS_PAGE).getText();
             }else
@@ -156,6 +162,7 @@ public class SearchTest extends BaseUI {
             } else if (i == 2) {
                 Assert.assertEquals(titleOfPage, Data.expectedTitleHowWeWork);
             } else if (i == 3) {
+                wait.until(ExpectedConditions.elementToBeClickable(Locators.TITLE_NEWS_PAGE)).isDisplayed();
                 Assert.assertEquals(titleOfNewsPage, Data.expectedTitleNews);
             } else if (i == 4) {
                 Assert.assertEquals(titleOfPage, Data.expectedTitlePrivacy);
