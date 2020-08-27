@@ -1,0 +1,262 @@
+<html>
+<head>
+<title>TestNG:  ChromeTestCases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ChromeTestCases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Aug 26 20:29:16 CDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>771 seconds (771989 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.romanceabroad.ui.SearchTest.testALlFooterLinks()'><b>testALlFooterLinks</b><br>Test class: com.romanceabroad.ui.SearchTest</td>
+<td><div><pre>java.lang.AssertionError: expected [Contact administrator] but found [Single Ukrainian women online]
+	at com.romanceabroad.ui.SearchTest.testALlFooterLinks(SearchTest.java:159)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace651445737", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace651445737'><pre>java.lang.AssertionError: expected [Contact administrator] but found [Single Ukrainian women online]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.romanceabroad.ui.SearchTest.testALlFooterLinks(SearchTest.java:159)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>7</td>
+<td>com.romanceabroad.ui.SearchTest@5af97850</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.romanceabroad.ui.HomeTest.MainPageTest()'><b>MainPageTest</b><br>Test class: com.romanceabroad.ui.HomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.romanceabroad.ui.HomeTest@548a102f</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.SignInTest.negativeTestCases()'><b>negativeTestCases</b><br>Test class: com.romanceabroad.ui.SignInTest<br>Parameters: , , false</td>
+<td></td>
+<td>6</td>
+<td>com.romanceabroad.ui.SignInTest@5ef60048</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.SignInTest.negativeTestCases()'><b>negativeTestCases</b><br>Test class: com.romanceabroad.ui.SignInTest<br>Parameters: sergey@gmail.com, , false</td>
+<td></td>
+<td>7</td>
+<td>com.romanceabroad.ui.SignInTest@5ef60048</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.SignInTest.negativeTestCases()'><b>negativeTestCases</b><br>Test class: com.romanceabroad.ui.SignInTest<br>Parameters: , T12345, false</td>
+<td></td>
+<td>5</td>
+<td>com.romanceabroad.ui.SignInTest@5ef60048</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.SearchTest.searchAllOptionFromDropDownList()'><b>searchAllOptionFromDropDownList</b><br>Test class: com.romanceabroad.ui.SearchTest</td>
+<td></td>
+<td>17</td>
+<td>com.romanceabroad.ui.SearchTest@5af97850</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.SearchTest.searchDifferentResults12()'><b>searchDifferentResults12</b><br>Test class: com.romanceabroad.ui.SearchTest<br>Parameters: 18, 80, Default</td>
+<td></td>
+<td>5</td>
+<td>com.romanceabroad.ui.SearchTest@5af97850</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.SearchTest.searchForAllUsers()'><b>searchForAllUsers</b><br>Test class: com.romanceabroad.ui.SearchTest</td>
+<td></td>
+<td>11</td>
+<td>com.romanceabroad.ui.SearchTest@5af97850</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.SearchTest.selectRandomDropDownListTestOnSearchPageCase11()'><b>selectRandomDropDownListTestOnSearchPageCase11</b><br>Test class: com.romanceabroad.ui.SearchTest</td>
+<td></td>
+<td>234</td>
+<td>com.romanceabroad.ui.SearchTest@5af97850</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.HomeTest.smokeTestMainPage()'><b>smokeTestMainPage</b><br>Test class: com.romanceabroad.ui.HomeTest</td>
+<td></td>
+<td>32</td>
+<td>com.romanceabroad.ui.HomeTest@548a102f</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.HowWeWorkTest.testArticlesAndTitles()'><b>testArticlesAndTitles</b><br>Test class: com.romanceabroad.ui.HowWeWorkTest</td>
+<td></td>
+<td>1</td>
+<td>com.romanceabroad.ui.HowWeWorkTest@5762806e</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.BlogTest.testBlogLink()'><b>testBlogLink</b><br>Test class: com.romanceabroad.ui.BlogTest</td>
+<td></td>
+<td>1</td>
+<td>com.romanceabroad.ui.BlogTest@3c87521</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.GiftsTest.testGiftsLink()'><b>testGiftsLink</b><br>Test class: com.romanceabroad.ui.GiftsTest</td>
+<td></td>
+<td>2</td>
+<td>com.romanceabroad.ui.GiftsTest@2aece37d</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.HowWeWorkTest.testHowWeWorkLink()'><b>testHowWeWorkLink</b><br>Test class: com.romanceabroad.ui.HowWeWorkTest</td>
+<td></td>
+<td>1</td>
+<td>com.romanceabroad.ui.HowWeWorkTest@5762806e</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.HomeTest.testLinksOnMainPage()'><b>testLinksOnMainPage</b><br>Test class: com.romanceabroad.ui.HomeTest</td>
+<td></td>
+<td>60</td>
+<td>com.romanceabroad.ui.HomeTest@548a102f</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.testRegistration()'><b>testRegistration</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois</td>
+<td></td>
+<td>7</td>
+<td>com.romanceabroad.ui.RegistrationTests@14a2f921</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.testRegistration()'><b>testRegistration</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri</td>
+<td></td>
+<td>5</td>
+<td>com.romanceabroad.ui.RegistrationTests@14a2f921</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.testRegistration()'><b>testRegistration</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia</td>
+<td></td>
+<td>5</td>
+<td>com.romanceabroad.ui.RegistrationTests@14a2f921</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.testRegistration()'><b>testRegistration</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois</td>
+<td></td>
+<td>7</td>
+<td>com.romanceabroad.ui.RegistrationTests@14a2f921</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.testRegistration2()'><b>testRegistration2</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: 11@gmail.com, Testing96719, true</td>
+<td></td>
+<td>5</td>
+<td>com.romanceabroad.ui.RegistrationTests@14a2f921</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.testRegistration2()'><b>testRegistration2</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: 11yahoo.com, Testing96719, false</td>
+<td></td>
+<td>0</td>
+<td>com.romanceabroad.ui.RegistrationTests@14a2f921</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.testRegistration2()'><b>testRegistration2</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: 11@mail.com, Testing96719, true</td>
+<td></td>
+<td>6</td>
+<td>com.romanceabroad.ui.RegistrationTests@14a2f921</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.SearchTest.testSearchPageTestCase10()'><b>testSearchPageTestCase10</b><br>Test class: com.romanceabroad.ui.SearchTest</td>
+<td></td>
+<td>2</td>
+<td>com.romanceabroad.ui.SearchTest@5af97850</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.SignInTest.testSignInTest()'><b>testSignInTest</b><br>Test class: com.romanceabroad.ui.SignInTest</td>
+<td></td>
+<td>0</td>
+<td>com.romanceabroad.ui.SignInTest@5ef60048</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.TourToUkraineTest.testTourToUkraineLink()'><b>testTourToUkraineLink</b><br>Test class: com.romanceabroad.ui.TourToUkraineTest</td>
+<td></td>
+<td>2</td>
+<td>com.romanceabroad.ui.TourToUkraineTest@1d548a08</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.PhotosTests.testUserTabs()'><b>testUserTabs</b><br>Test class: com.romanceabroad.ui.PhotosTests</td>
+<td></td>
+<td>26</td>
+<td>com.romanceabroad.ui.PhotosTests@17c386de</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.SearchTest.verifyMarinaUserProfile()'><b>verifyMarinaUserProfile</b><br>Test class: com.romanceabroad.ui.SearchTest</td>
+<td></td>
+<td>9</td>
+<td>com.romanceabroad.ui.SearchTest@5af97850</td></tr>
+</table><p>
+</body>
+</html>

@@ -4,14 +4,14 @@
   <test thread-count="5" name="ChromeTestCases(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.romanceabroad.ui.RegistrationTests">
+      <class name="com.romanceabroad.ui.SearchTest">
         <methods>
           <include name="afterActions"/>
-          <include name="testRegistration2" invocation-numbers="0 2"/>
-          <include name="testRegistration" invocation-numbers="0 1 2 3"/>
+          <include name="testALlFooterLinks"/>
+          <include name="searchAllOptionFromDropDownList"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.romanceabroad.ui.RegistrationTests -->
+      </class> <!-- com.romanceabroad.ui.SearchTest -->
     </classes>
   </test> <!-- ChromeTestCases(failed) -->
 </suite> <!-- Failed suite [TestSuite] -->

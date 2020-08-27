@@ -100,7 +100,7 @@ public class SearchTest extends BaseUI {
     @Test
     public void verifyMarinaUserProfile() {
         mainPage.verifySearchLink();
-        mainPage.javaWait(3000);
+        mainPage.javaWait(5000);
         String marinaUserUrl = searchPage.verifyMarinaUserUrl();
         System.out.println(marinaUserUrl);
         Assert.assertEquals(marinaUserUrl, Data.expectedUrlMarinaUser);
@@ -116,7 +116,7 @@ public class SearchTest extends BaseUI {
     @Test
     public void searchAllOptionFromDropDownList() {
         mainPage.verifySearchLink();
-        mainPage.javaWait(3000);
+        mainPage.javaWait(5000);
         String marinaUserUrl = searchPage.verifyMarinaUserUrl();
         System.out.println(marinaUserUrl);
         driver.findElement(Locators.LINK_USER_PROFILE_GALLERY).click();
