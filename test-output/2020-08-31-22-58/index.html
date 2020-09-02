@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-TestSuite" class="navigator-link">
+              <span class="suite-name border-passed">TestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-TestSuite" class="navigator-link ">
+                    <span>C:\Users\sbala\Project\romance\romanceabroad4\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-TestSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-TestSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-TestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-TestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-TestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-TestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestSuite" class="hide-methods passed suite-TestSuite"> (hide)</a> <!-- hide-methods passed suite-TestSuite -->
+                      <a href="#" panel-name="suite-TestSuite" class="show-methods passed suite-TestSuite"> (show)</a> <!-- show-methods passed suite-TestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-TestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.HomeTest" class="method navigator-link" hash-for-method="MainPageTest">MainPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.HomeTest" class="method navigator-link" hash-for-method="smokeTestMainPage">smokeTestMainPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.BlogTest" class="method navigator-link" hash-for-method="testBlogLink">testBlogLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.GiftsTest" class="method navigator-link" hash-for-method="testGiftsLink">testGiftsLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.HomeTest" class="method navigator-link" hash-for-method="testLinksOnMainPage">testLinksOnMainPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration(contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia)">testRegistration(contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration(data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois)">testRegistration(data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration(test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri)">testRegistration(test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration(Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois)">testRegistration(Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration2(11@mail.com, Testing41848, true)">testRegistration2(11@mail.com, Testing41848, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration2(11yahoo.com, Testing41848, false)">testRegistration2(11yahoo.com, Testing41848, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" class="method navigator-link" hash-for-method="testRegistration2(11@gmail.com, Testing41848, true)">testRegistration2(11@gmail.com, Testing41848, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestSuite" class="panel TestSuite">
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.romanceabroad.ui.GiftsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGiftsLink">
+                  </a> <!-- testGiftsLink -->
+                  <span class="method-name">testGiftsLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.romanceabroad.ui.RegistrationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia)">
+                  </a> <!-- testRegistration(contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois)">
+                  </a> <!-- testRegistration(data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri)">
+                  </a> <!-- testRegistration(test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois)">
+                  </a> <!-- testRegistration(Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration2(11@mail.com, Testing41848, true)">
+                  </a> <!-- testRegistration2(11@mail.com, Testing41848, true) -->
+                  <span class="method-name">testRegistration2</span>
+                  <span class="parameters">(11@mail.com, Testing41848, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration2(11yahoo.com, Testing41848, false)">
+                  </a> <!-- testRegistration2(11yahoo.com, Testing41848, false) -->
+                  <span class="method-name">testRegistration2</span>
+                  <span class="parameters">(11yahoo.com, Testing41848, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration2(11@gmail.com, Testing41848, true)">
+                  </a> <!-- testRegistration2(11@gmail.com, Testing41848, true) -->
+                  <span class="method-name">testRegistration2</span>
+                  <span class="parameters">(11@gmail.com, Testing41848, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.romanceabroad.ui.BlogTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBlogLink">
+                  </a> <!-- testBlogLink -->
+                  <span class="method-name">testBlogLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.romanceabroad.ui.HomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MainPageTest">
+                  </a> <!-- MainPageTest -->
+                  <span class="method-name">MainPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="smokeTestMainPage">
+                  </a> <!-- smokeTestMainPage -->
+                  <span class="method-name">smokeTestMainPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLinksOnMainPage">
+                  </a> <!-- testLinksOnMainPage -->
+                  <span class="method-name">testLinksOnMainPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+        </div> <!-- panel TestSuite -->
+        <div panel-name="test-xml-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sbala\Project\romance\romanceabroad4\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;TestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTestCases&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.romanceabroad.ui.RegistrationTests&quot;/&gt;
+      &lt;class name=&quot;com.romanceabroad.ui.BlogTest&quot;/&gt;
+      &lt;class name=&quot;com.romanceabroad.ui.ContactUsPage&quot;/&gt;
+      &lt;class name=&quot;com.romanceabroad.ui.GiftsTest&quot;/&gt;
+      &lt;class name=&quot;com.romanceabroad.ui.HomeTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTestCases --&gt;
+&lt;/suite&gt; &lt;!-- TestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeTestCases (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestSuite');
+function tableData_TestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testLinksOnMainPage')
+data.setCell(0, 2, 'com.romanceabroad.ui.HomeTest')
+data.setCell(0, 3, 65366);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'smokeTestMainPage')
+data.setCell(1, 2, 'com.romanceabroad.ui.HomeTest')
+data.setCell(1, 3, 64495);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testRegistration2')
+data.setCell(2, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(2, 3, 40582);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testRegistration2')
+data.setCell(3, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(3, 3, 21550);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testRegistration')
+data.setCell(4, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(4, 3, 16554);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testRegistration')
+data.setCell(5, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(5, 3, 13710);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testRegistration')
+data.setCell(6, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(6, 3, 8984);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testRegistration')
+data.setCell(7, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(7, 3, 8943);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testBlogLink')
+data.setCell(8, 2, 'com.romanceabroad.ui.BlogTest')
+data.setCell(8, 3, 3678);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testGiftsLink')
+data.setCell(9, 2, 'com.romanceabroad.ui.GiftsTest')
+data.setCell(9, 3, 3386);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testRegistration2')
+data.setCell(10, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(10, 3, 2878);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'MainPageTest')
+data.setCell(11, 2, 'com.romanceabroad.ui.HomeTest')
+data.setCell(11, 3, 787);
+window.suiteTableData['TestSuite']= { tableData: data, tableDiv: 'times-div-TestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-TestSuite">
+              </div> <!-- times-div-TestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.romanceabroad.ui.RegistrationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.la...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois)</span>
+                <span class="method-start">14847 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=testRegistration status=SUCCESS method=RegistrationTests.testRegistration(java.lang...)</span>
+                <span class="method-start">28558 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.la...)</span>
+                <span class="method-start">30023 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri)</span>
+                <span class="method-start">43943 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=testRegistration status=SUCCESS method=RegistrationTests.testRegistration(java.lang...)</span>
+                <span class="method-start">52927 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.la...)</span>
+                <span class="method-start">53149 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia)</span>
+                <span class="method-start">65109 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=testRegistration status=SUCCESS method=RegistrationTests.testRegistration(java.lang...)</span>
+                <span class="method-start">74052 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.la...)</span>
+                <span class="method-start">74174 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois)</span>
+                <span class="method-start">85963 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=testRegistration status=SUCCESS method=RegistrationTests.testRegistration(java.lang...)</span>
+                <span class="method-start">102517 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java.l...)</span>
+                <span class="method-start">102699 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistration2(11@gmail.com, Testing41848, true)</span>
+                <span class="method-start">124865 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=testRegistration2 status=SUCCESS method=RegistrationTests.testRegistration2(java.la...)</span>
+                <span class="method-start">146501 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java.l...)</span>
+                <span class="method-start">146653 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistration2(11yahoo.com, Testing41848, false)</span>
+                <span class="method-start">161612 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=testRegistration2 status=SUCCESS method=RegistrationTests.testRegistration2(java.la...)</span>
+                <span class="method-start">164526 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java.l...)</span>
+                <span class="method-start">164937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistration2(11@mail.com, Testing41848, true)</span>
+                <span class="method-start">185412 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=testRegistration2 status=SUCCESS method=RegistrationTests.testRegistration2(java.la...)</span>
+                <span class="method-start">226178 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.romanceabroad.ui.GiftsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.GiftsTest.testGiftsLink())</span>
+                <span class="method-start">226473 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGiftsLink</span>
+                <span class="method-start">246532 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=testGiftsLink status=SUCCESS method=GiftsTest.testGiftsLink()[pri:0, instance:com.r...)</span>
+                <span class="method-start">249919 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.romanceabroad.ui.BlogTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.BlogTest.testBlogLink())</span>
+                <span class="method-start">250168 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testBlogLink</span>
+                <span class="method-start">275861 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=testBlogLink status=SUCCESS method=BlogTest.testBlogLink()[pri:0, instance:com.roma...)</span>
+                <span class="method-start">279540 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.romanceabroad.ui.HomeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.HomeTest.MainPageTest())</span>
+                <span class="method-start">279830 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MainPageTest</span>
+                <span class="method-start">298439 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=MainPageTest status=SUCCESS method=HomeTest.MainPageTest()[pri:0, instance:com.roma...)</span>
+                <span class="method-start">299228 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.HomeTest.smokeTestMainPage())</span>
+                <span class="method-start">299415 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">smokeTestMainPage</span>
+                <span class="method-start">321031 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=smokeTestMainPage status=SUCCESS method=HomeTest.smokeTestMainPage()[pri:0, instanc...)</span>
+                <span class="method-start">385527 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.HomeTest.testLinksOnMainPage())</span>
+                <span class="method-start">385644 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLinksOnMainPage</span>
+                <span class="method-start">401776 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=testLinksOnMainPage status=SUCCESS method=HomeTest.testLinksOnMainPage()[pri:0, ins...)</span>
+                <span class="method-start">467143 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

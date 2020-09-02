@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="679.534" tests="15" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\sbala\Project\romance\romanceabroad4\target\test-classes;C:\Users\sbala\Project\romance\romanceabroad4\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\automation-remarks\video-recorder-testng\1.0\video-recorder-testng-1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\automation-remarks\video-recorder-core\1.0\video-recorder-core-1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\ru\yandex\qatools\allure\allure-java-annotations\1.4.23\allure-java-annotations-1.4.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\ru\yandex\qatools\allure\allure-model\1.4.23\allure-model-1.4.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jvnet\jaxb2_commons\jaxb2-basics-runtime\0.9.3\jaxb2-basics-runtime-0.9.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\ru\yandex\qatools\properties\properties-loader\1.5\properties-loader-1.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.3\commons-beanutils-core-1.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.12\slf4j-api-1.7.12.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="user.country.format" value="US"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire1230596492312652578\surefirebooter11230518911816527089.jar C:\Windows\Temp\surefire1230596492312652578 2020-08-31T22-27-50_282-jvmRun1 surefire11114310996248502901tmp surefire_07931147045289221604tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\sbala\Project\romance\romanceabroad4\target\test-classes;C:\Users\sbala\Project\romance\romanceabroad4\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\automation-remarks\video-recorder-testng\1.0\video-recorder-testng-1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\automation-remarks\video-recorder-core\1.0\video-recorder-core-1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\ru\yandex\qatools\allure\allure-java-annotations\1.4.23\allure-java-annotations-1.4.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\ru\yandex\qatools\allure\allure-model\1.4.23\allure-model-1.4.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jvnet\jaxb2_commons\jaxb2-basics-runtime\0.9.3\jaxb2-basics-runtime-0.9.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\ru\yandex\qatools\properties\properties-loader\1.5\properties-loader-1.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.3\commons-beanutils-core-1.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.12\slf4j-api-1.7.12.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\sbala\Project\romance\romanceabroad4"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire1230596492312652578\surefirebooter11230518911816527089.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="user.name" value="DESKTOP-OIDSKCV$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\WINDOWS\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="user.dir" value="C:\Users\sbala\Project\romance\romanceabroad4"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="en"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven_3.6.3/bin;C:\Program Files\Java\jdk-13.0.2/bin;C:\Program Files\Java\jdk-13.0.2/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Python37-32;C:\Python37-32\Scripts;C:\Program Files (x86)\Micro Focus\Unified Functional Testing\bin;C:\Program Files\Java\jdk-13.0.2\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="testTourToUkraineLink" classname="com.romanceabroad.ui.TourToUkraineTest" time="2.337"/>
+  <testcase name="negativeTestCases" classname="com.romanceabroad.ui.SignInTest" time="8.974"/>
+  <testcase name="negativeTestCases" classname="com.romanceabroad.ui.SignInTest" time="7.236"/>
+  <testcase name="negativeTestCases" classname="com.romanceabroad.ui.SignInTest" time="8.648"/>
+  <testcase name="testSignInTest" classname="com.romanceabroad.ui.SignInTest" time="1.045"/>
+  <testcase name="testArticlesAndTitles" classname="com.romanceabroad.ui.HowWeWorkTest" time="2.147"/>
+  <testcase name="testHowWeWorkLink" classname="com.romanceabroad.ui.HowWeWorkTest" time="2.981"/>
+  <testcase name="testUserTabs" classname="com.romanceabroad.ui.PhotosTests" time="36.122"/>
+  <testcase name="searchAllOptionFromDropDownList" classname="com.romanceabroad.ui.SearchTest" time="23.052"/>
+  <testcase name="searchForAllUsers" classname="com.romanceabroad.ui.SearchTest" time="14.418"/>
+  <testcase name="testALlFooterLinks" classname="com.romanceabroad.ui.SearchTest" time="12.28">
+    <failure message="expected [Contact administrator] but found [Single Ukrainian women online]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Contact administrator] but found [Single Ukrainian women online]
+	at com.romanceabroad.ui.SearchTest.testALlFooterLinks(SearchTest.java:159)
+</failure>
+    <system-out><![CDATA[Link: Contact us
+Page Title: Single Ukrainian women online
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 8131
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598931179.292][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Aug 31, 2020 10:33:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyMarinaUserProfile" classname="com.romanceabroad.ui.SearchTest" time="13.587"/>
+  <testcase name="searchDifferentResults12" classname="com.romanceabroad.ui.SearchTest" time="10.777">
+    <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=85.0.4183.83)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-OIDSKCV&apos;, ip: &apos;192.168.1.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:54341}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: fc506fb9bf7b0bd12acdd0bcfa5a68c5" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.83)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OIDSKCV', ip: '192.168.1.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:54341}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fc506fb9bf7b0bd12acdd0bcfa5a68c5
+	at com.romanceabroad.ui.SearchTest.searchDifferentResults12(SearchTest.java:65)
+</failure>
+    <system-out><![CDATA[This age is: 36 is correct
+This age is: 43 is correct
+This age is: 26 is correct
+This age is: 46 is correct
+This age is: 39 is correct
+This age is: 30 is correct
+This age is: 28 is correct
+This age is: 40 is correct
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 28123
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598931246.743][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Aug 31, 2020 10:34:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="selectRandomDropDownListTestOnSearchPageCase11" classname="com.romanceabroad.ui.SearchTest" time="245.251"/>
+  <testcase name="testSearchPageTestCase10" classname="com.romanceabroad.ui.SearchTest" time="2.595"/>
+</testsuite>

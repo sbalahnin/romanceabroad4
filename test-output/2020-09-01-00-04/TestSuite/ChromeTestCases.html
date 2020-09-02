@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  ChromeTestCases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ChromeTestCases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 31 19:04:37 CDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>601 seconds (601641 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.romanceabroad.ui.SignInTest.negativeTestCases()'><b>negativeTestCases</b><br>Test class: com.romanceabroad.ui.SignInTest<br>Parameters: , , false</td>
+<td></td>
+<td>7</td>
+<td>com.romanceabroad.ui.SignInTest@77e9807f</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.SignInTest.negativeTestCases()'><b>negativeTestCases</b><br>Test class: com.romanceabroad.ui.SignInTest<br>Parameters: sergey@gmail.com, , false</td>
+<td></td>
+<td>8</td>
+<td>com.romanceabroad.ui.SignInTest@77e9807f</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.SignInTest.negativeTestCases()'><b>negativeTestCases</b><br>Test class: com.romanceabroad.ui.SignInTest<br>Parameters: , T12345, false</td>
+<td></td>
+<td>6</td>
+<td>com.romanceabroad.ui.SignInTest@77e9807f</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.SearchTest.searchAllOptionFromDropDownList()'><b>searchAllOptionFromDropDownList</b><br>Test class: com.romanceabroad.ui.SearchTest</td>
+<td></td>
+<td>20</td>
+<td>com.romanceabroad.ui.SearchTest@7f77e91b</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.SearchTest.searchDifferentResults12()'><b>searchDifferentResults12</b><br>Test class: com.romanceabroad.ui.SearchTest<br>Parameters: 18, 80, Default</td>
+<td></td>
+<td>6</td>
+<td>com.romanceabroad.ui.SearchTest@7f77e91b</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.SearchTest.searchForAllUsers()'><b>searchForAllUsers</b><br>Test class: com.romanceabroad.ui.SearchTest</td>
+<td></td>
+<td>10</td>
+<td>com.romanceabroad.ui.SearchTest@7f77e91b</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.SearchTest.selectRandomDropDownListTestOnSearchPageCase11()'><b>selectRandomDropDownListTestOnSearchPageCase11</b><br>Test class: com.romanceabroad.ui.SearchTest</td>
+<td></td>
+<td>254</td>
+<td>com.romanceabroad.ui.SearchTest@7f77e91b</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.SearchTest.testALlFooterLinks()'><b>testALlFooterLinks</b><br>Test class: com.romanceabroad.ui.SearchTest</td>
+<td></td>
+<td>41</td>
+<td>com.romanceabroad.ui.SearchTest@7f77e91b</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.HowWeWorkTest.testArticlesAndTitles()'><b>testArticlesAndTitles</b><br>Test class: com.romanceabroad.ui.HowWeWorkTest</td>
+<td></td>
+<td>2</td>
+<td>com.romanceabroad.ui.HowWeWorkTest@448ff1a8</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.HowWeWorkTest.testHowWeWorkLink()'><b>testHowWeWorkLink</b><br>Test class: com.romanceabroad.ui.HowWeWorkTest</td>
+<td></td>
+<td>2</td>
+<td>com.romanceabroad.ui.HowWeWorkTest@448ff1a8</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.SearchTest.testSearchPageTestCase10()'><b>testSearchPageTestCase10</b><br>Test class: com.romanceabroad.ui.SearchTest</td>
+<td></td>
+<td>3</td>
+<td>com.romanceabroad.ui.SearchTest@7f77e91b</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.SignInTest.testSignInTest()'><b>testSignInTest</b><br>Test class: com.romanceabroad.ui.SignInTest</td>
+<td></td>
+<td>0</td>
+<td>com.romanceabroad.ui.SignInTest@77e9807f</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.TourToUkraineTest.testTourToUkraineLink()'><b>testTourToUkraineLink</b><br>Test class: com.romanceabroad.ui.TourToUkraineTest</td>
+<td></td>
+<td>2</td>
+<td>com.romanceabroad.ui.TourToUkraineTest@61009542</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.PhotosTests.testUserTabs()'><b>testUserTabs</b><br>Test class: com.romanceabroad.ui.PhotosTests</td>
+<td></td>
+<td>26</td>
+<td>com.romanceabroad.ui.PhotosTests@1a38c59b</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.SearchTest.verifyMarinaUserProfile()'><b>verifyMarinaUserProfile</b><br>Test class: com.romanceabroad.ui.SearchTest</td>
+<td></td>
+<td>13</td>
+<td>com.romanceabroad.ui.SearchTest@7f77e91b</td></tr>
+</table><p>
+</body>
+</html>

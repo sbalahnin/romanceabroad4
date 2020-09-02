@@ -29,16 +29,12 @@
         <parameter name="browser" value="chrome"/>
 
         <classes>
-            <class name="com.romanceabroad.ui.RegistrationTests"/>
-            <class name="com.romanceabroad.ui.BlogTest"/>
-            <class name="com.romanceabroad.ui.ContactUsPage"/>
-            <class name="com.romanceabroad.ui.GiftsTest"/>
-            <class name="com.romanceabroad.ui.HomeTest"/>
+            <class name="com.romanceabroad.ui.TourToUkraineTest"/>
+            <class name="com.romanceabroad.ui.SignInTest"/>
             <class name="com.romanceabroad.ui.HowWeWorkTest"/>
             <class name="com.romanceabroad.ui.PhotosTests"/>
             <class name="com.romanceabroad.ui.SearchTest"/>
-            <class name="com.romanceabroad.ui.SignInTest"/>
-            <class name="com.romanceabroad.ui.TourToUkraineTest"/>
+
         </classes>
 
     </test>

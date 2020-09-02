@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 679.534 s <<< FAILURE! - in TestSuite
+testALlFooterLinks(com.romanceabroad.ui.SearchTest)  Time elapsed: 12.28 s  <<< FAILURE!
+java.lang.AssertionError: expected [Contact administrator] but found [Single Ukrainian women online]
+	at com.romanceabroad.ui.SearchTest.testALlFooterLinks(SearchTest.java:159)
+
+searchDifferentResults12(com.romanceabroad.ui.SearchTest)  Time elapsed: 10.777 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.83)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OIDSKCV', ip: '192.168.1.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:54341}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fc506fb9bf7b0bd12acdd0bcfa5a68c5
+	at com.romanceabroad.ui.SearchTest.searchDifferentResults12(SearchTest.java:65)
+
