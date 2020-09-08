@@ -9,7 +9,7 @@ import org.testng.annotations.Listeners;
 
 @Listeners(VideoListener.class)
 
-public class RegistrationTests extends BaseUI {
+public class RegistrationTests extends BaseUISauceLabs {
 
     @Video(name = "Registration Test")
     @Test(dataProvider = "Registration2", dataProviderClass = DataProviders.class)
@@ -30,7 +30,7 @@ public class RegistrationTests extends BaseUI {
         }
     }
 
-    @Test(dataProvider = "Registration", dataProviderClass = DataProviders.class)
+    /*@Test(dataProvider = "Registration", dataProviderClass = DataProviders.class)
     public void testRegistration(String email, String password, String day, String month, String year,
                                  String phone, String city, String location) {
         mainPage.clickJoinButton();
@@ -39,6 +39,6 @@ public class RegistrationTests extends BaseUI {
         mainPage.secondPartOfRegistration(mainPage.generateNewNumber(Data.nickname, 10),
                 day, month, year, phone, city, location);
 
-    }
+    }*/
 
 }

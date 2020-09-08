@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ChromeTestCases</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>25/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Aug 26 15:48:25 CDT 2020</td>
+<td>Started on:</td><td>Mon Sep 07 16:13:07 CDT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>981 seconds (981875 ms)</td>
+<tr><td>Total time:</td><td>85 seconds (85475 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,133 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.romanceabroad.ui.SearchTest.searchAllOptionFromDropDownList()'><b>searchAllOptionFromDropDownList</b><br>Test class: com.romanceabroad.ui.SearchTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@data-pjax-no-scroll=&apos;1&apos;][@href=&apos;https://romanceabroad.com/users/view/330/gallery&apos;]&quot;}
-  (Session info: chrome=84.0.4147.135)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-OIDSKCV&apos;, ip: &apos;192.168.1.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\sbala\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51719}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 6302c204662cc04fe4355e19f0f5b2ed
-*** Element info: {Using=xpath, value=//a[@data-pjax-no-scroll=&apos;1&apos;][@href=&apos;https://romanceabroad.com/users/view/330/gallery&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.romanceabroad.ui.SearchTest.searchAllOptionFromDropDownList(SearchTest.java:122)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1835471543", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1835471543'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@data-pjax-no-scroll=&apos;1&apos;][@href=&apos;https://romanceabroad.com/users/view/330/gallery&apos;]&quot;}
-  (Session info: chrome=84.0.4147.135)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-OIDSKCV&apos;, ip: &apos;192.168.1.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\sbala\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51719}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 6302c204662cc04fe4355e19f0f5b2ed
-*** Element info: {Using=xpath, value=//a[@data-pjax-no-scroll=&apos;1&apos;][@href=&apos;https://romanceabroad.com/users/view/330/gallery&apos;]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.romanceabroad.ui.SearchTest.searchAllOptionFromDropDownList(SearchTest.java:122)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div></td>
-<td>11</td>
-<td>com.romanceabroad.ui.SearchTest@4148db48</td></tr>
-<tr>
-<td title='com.romanceabroad.ui.SearchTest.testALlFooterLinks()'><b>testALlFooterLinks</b><br>Test class: com.romanceabroad.ui.SearchTest</td>
-<td><div><pre>java.lang.AssertionError: expected [Contact administrator] but found [Single Ukrainian women online]
-	at com.romanceabroad.ui.SearchTest.testALlFooterLinks(SearchTest.java:159)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1574368535", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1574368535'><pre>java.lang.AssertionError: expected [Contact administrator] but found [Single Ukrainian women online]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:453)
-	at org.testng.Assert.assertEquals(Assert.java:463)
-	at com.romanceabroad.ui.SearchTest.testALlFooterLinks(SearchTest.java:159)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div></td>
-<td>8</td>
-<td>com.romanceabroad.ui.SearchTest@4148db48</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -202,130 +75,30 @@ Session ID: 6302c204662cc04fe4355e19f0f5b2ed
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.romanceabroad.ui.HomeTest.MainPageTest()'><b>MainPageTest</b><br>Test class: com.romanceabroad.ui.HomeTest</td>
-<td></td>
-<td>0</td>
-<td>com.romanceabroad.ui.HomeTest@33cb5951</td></tr>
-<tr>
-<td title='com.romanceabroad.ui.SignInTest.negativeTestCases()'><b>negativeTestCases</b><br>Test class: com.romanceabroad.ui.SignInTest<br>Parameters: , , false</td>
-<td></td>
-<td>10</td>
-<td>com.romanceabroad.ui.SignInTest@282003e1</td></tr>
-<tr>
-<td title='com.romanceabroad.ui.SignInTest.negativeTestCases()'><b>negativeTestCases</b><br>Test class: com.romanceabroad.ui.SignInTest<br>Parameters: sergey@gmail.com, , false</td>
-<td></td>
-<td>7</td>
-<td>com.romanceabroad.ui.SignInTest@282003e1</td></tr>
-<tr>
-<td title='com.romanceabroad.ui.SignInTest.negativeTestCases()'><b>negativeTestCases</b><br>Test class: com.romanceabroad.ui.SignInTest<br>Parameters: , T12345, false</td>
-<td></td>
-<td>8</td>
-<td>com.romanceabroad.ui.SignInTest@282003e1</td></tr>
-<tr>
-<td title='com.romanceabroad.ui.SearchTest.searchDifferentResults12()'><b>searchDifferentResults12</b><br>Test class: com.romanceabroad.ui.SearchTest<br>Parameters: 18, 80, Default</td>
-<td></td>
-<td>7</td>
-<td>com.romanceabroad.ui.SearchTest@4148db48</td></tr>
-<tr>
-<td title='com.romanceabroad.ui.SearchTest.searchForAllUsers()'><b>searchForAllUsers</b><br>Test class: com.romanceabroad.ui.SearchTest</td>
-<td></td>
-<td>11</td>
-<td>com.romanceabroad.ui.SearchTest@4148db48</td></tr>
-<tr>
-<td title='com.romanceabroad.ui.SearchTest.selectRandomDropDownListTestOnSearchPageCase11()'><b>selectRandomDropDownListTestOnSearchPageCase11</b><br>Test class: com.romanceabroad.ui.SearchTest</td>
-<td></td>
-<td>264</td>
-<td>com.romanceabroad.ui.SearchTest@4148db48</td></tr>
-<tr>
-<td title='com.romanceabroad.ui.HomeTest.smokeTestMainPage()'><b>smokeTestMainPage</b><br>Test class: com.romanceabroad.ui.HomeTest</td>
-<td></td>
-<td>52</td>
-<td>com.romanceabroad.ui.HomeTest@33cb5951</td></tr>
-<tr>
-<td title='com.romanceabroad.ui.HowWeWorkTest.testArticlesAndTitles()'><b>testArticlesAndTitles</b><br>Test class: com.romanceabroad.ui.HowWeWorkTest</td>
-<td></td>
-<td>2</td>
-<td>com.romanceabroad.ui.HowWeWorkTest@365c30cc</td></tr>
-<tr>
-<td title='com.romanceabroad.ui.BlogTest.testBlogLink()'><b>testBlogLink</b><br>Test class: com.romanceabroad.ui.BlogTest</td>
-<td></td>
-<td>1</td>
-<td>com.romanceabroad.ui.BlogTest@4e41089d</td></tr>
-<tr>
-<td title='com.romanceabroad.ui.GiftsTest.testGiftsLink()'><b>testGiftsLink</b><br>Test class: com.romanceabroad.ui.GiftsTest</td>
-<td></td>
-<td>1</td>
-<td>com.romanceabroad.ui.GiftsTest@32a068d1</td></tr>
-<tr>
-<td title='com.romanceabroad.ui.HowWeWorkTest.testHowWeWorkLink()'><b>testHowWeWorkLink</b><br>Test class: com.romanceabroad.ui.HowWeWorkTest</td>
-<td></td>
-<td>2</td>
-<td>com.romanceabroad.ui.HowWeWorkTest@365c30cc</td></tr>
-<tr>
-<td title='com.romanceabroad.ui.HomeTest.testLinksOnMainPage()'><b>testLinksOnMainPage</b><br>Test class: com.romanceabroad.ui.HomeTest</td>
-<td></td>
-<td>60</td>
-<td>com.romanceabroad.ui.HomeTest@33cb5951</td></tr>
-<tr>
 <td title='com.romanceabroad.ui.RegistrationTests.testRegistration()'><b>testRegistration</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: Qaautomation@gmail.com, T123456, 10, Jan, 1990, 84765783465, Wheeling, Illinois</td>
 <td></td>
-<td>8</td>
-<td>com.romanceabroad.ui.RegistrationTests@70beb599</td></tr>
+<td>5</td>
+<td>com.romanceabroad.ui.RegistrationTests@69379752</td></tr>
 <tr>
 <td title='com.romanceabroad.ui.RegistrationTests.testRegistration()'><b>testRegistration</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: test@yahoo.com, MLP1234, 5, Feb, 2000, 9046578392, Wheeling, Missouri</td>
 <td></td>
-<td>9</td>
-<td>com.romanceabroad.ui.RegistrationTests@70beb599</td></tr>
+<td>5</td>
+<td>com.romanceabroad.ui.RegistrationTests@69379752</td></tr>
 <tr>
 <td title='com.romanceabroad.ui.RegistrationTests.testRegistration()'><b>testRegistration</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: contract@aol.com, Test0987, 23, Aug, 1995, 9045384675, Wheeling, West Virginia</td>
 <td></td>
-<td>6</td>
-<td>com.romanceabroad.ui.RegistrationTests@70beb599</td></tr>
+<td>5</td>
+<td>com.romanceabroad.ui.RegistrationTests@69379752</td></tr>
 <tr>
 <td title='com.romanceabroad.ui.RegistrationTests.testRegistration()'><b>testRegistration</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: data@gmail.com, Bin4567, 16, Nov, 1956, 8358567365, Wheeling, Illinois</td>
 <td></td>
-<td>11</td>
-<td>com.romanceabroad.ui.RegistrationTests@70beb599</td></tr>
+<td>5</td>
+<td>com.romanceabroad.ui.RegistrationTests@69379752</td></tr>
 <tr>
-<td title='com.romanceabroad.ui.RegistrationTests.testRegistration2()'><b>testRegistration2</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: 11@gmail.com, Testing19798, true</td>
-<td></td>
-<td>16</td>
-<td>com.romanceabroad.ui.RegistrationTests@70beb599</td></tr>
-<tr>
-<td title='com.romanceabroad.ui.RegistrationTests.testRegistration2()'><b>testRegistration2</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: 11yahoo.com, Testing19798, false</td>
-<td></td>
-<td>1</td>
-<td>com.romanceabroad.ui.RegistrationTests@70beb599</td></tr>
-<tr>
-<td title='com.romanceabroad.ui.RegistrationTests.testRegistration2()'><b>testRegistration2</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: 11@mail.com, Testing19798, true</td>
+<td title='com.romanceabroad.ui.RegistrationTests.testRegistration2()'><b>testRegistration2</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: 11@gmail.com, Testing95466, true</td>
 <td></td>
 <td>11</td>
-<td>com.romanceabroad.ui.RegistrationTests@70beb599</td></tr>
-<tr>
-<td title='com.romanceabroad.ui.SearchTest.testSearchPageTestCase10()'><b>testSearchPageTestCase10</b><br>Test class: com.romanceabroad.ui.SearchTest</td>
-<td></td>
-<td>3</td>
-<td>com.romanceabroad.ui.SearchTest@4148db48</td></tr>
-<tr>
-<td title='com.romanceabroad.ui.SignInTest.testSignInTest()'><b>testSignInTest</b><br>Test class: com.romanceabroad.ui.SignInTest</td>
-<td></td>
-<td>0</td>
-<td>com.romanceabroad.ui.SignInTest@282003e1</td></tr>
-<tr>
-<td title='com.romanceabroad.ui.TourToUkraineTest.testTourToUkraineLink()'><b>testTourToUkraineLink</b><br>Test class: com.romanceabroad.ui.TourToUkraineTest</td>
-<td></td>
-<td>1</td>
-<td>com.romanceabroad.ui.TourToUkraineTest@7fad8c79</td></tr>
-<tr>
-<td title='com.romanceabroad.ui.PhotosTests.testUserTabs()'><b>testUserTabs</b><br>Test class: com.romanceabroad.ui.PhotosTests</td>
-<td></td>
-<td>29</td>
-<td>com.romanceabroad.ui.PhotosTests@701fc37a</td></tr>
-<tr>
-<td title='com.romanceabroad.ui.SearchTest.verifyMarinaUserProfile()'><b>verifyMarinaUserProfile</b><br>Test class: com.romanceabroad.ui.SearchTest</td>
-<td></td>
-<td>9</td>
-<td>com.romanceabroad.ui.SearchTest@4148db48</td></tr>
+<td>com.romanceabroad.ui.RegistrationTests@69379752</td></tr>
 </table><p>
 </body>
 </html>

@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="ChromeTestCases(failed)">
-    <parameter name="browser" value="chrome"/>
+<suite parallel="tests" name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Safari Mac test cases(failed)">
+    <parameter name="browser" value="Safari"/>
+    <parameter name="version" value="12.1"/>
+    <parameter name="platform" value="macOS 10.13"/>
+    <parameter name="testBox" value="sauce"/>
     <classes>
-      <class name="com.romanceabroad.ui.SearchTest">
+      <class name="com.romanceabroad.ui.RegistrationTests">
         <methods>
-          <include name="afterActions"/>
-          <include name="testALlFooterLinks"/>
-          <include name="searchAllOptionFromDropDownList"/>
           <include name="setup"/>
+          <include name="testRegistration2" invocation-numbers="0"/>
+          <include name="afterActions"/>
         </methods>
-      </class> <!-- com.romanceabroad.ui.SearchTest -->
+      </class> <!-- com.romanceabroad.ui.RegistrationTests -->
     </classes>
-  </test> <!-- ChromeTestCases(failed) -->
+  </test> <!-- Safari Mac test cases(failed) -->
 </suite> <!-- Failed suite [TestSuite] -->

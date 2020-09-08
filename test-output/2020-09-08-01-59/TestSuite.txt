@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 323.486 s <<< FAILURE! - in TestSuite
+testRegistration2(com.romanceabroad.ui.RegistrationTests)  Time elapsed: 29.013 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: [[RemoteWebDriver: MicrosoftEdge on ANY (de9424040df04e30971df4c3793b24ef)] -> xpath: //li[@data-handler='selectDay']] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OIDSKCV', ip: '192.168.1.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 41.16299.15.0, cssSelectorsEnabled: true, hasMetadata: true, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: ANY, platformName: ANY, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true, webdriver.remote.sessionid: de9424040df04e30971df4c3793...}
+Session ID: de9424040df04e30971df4c3793b24ef
+	at com.romanceabroad.ui.RegistrationTests.testRegistration2(RegistrationTests.java:28)
+
+testRegistration2(com.romanceabroad.ui.RegistrationTests)  Time elapsed: 160.762 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Automation Server Error -- Selenium didn't complete your last command on time.
+For help, please check https://wiki.saucelabs.com/display/DOCS/Common+Error+Messages (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OIDSKCV', ip: '192.168.1.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 12.1.1, hasMetadata: true, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: 047664d0e94b48cb83eb4c8241d..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: 047664d0e94b48cb83eb4c8241ddfc8d
+	at com.romanceabroad.ui.RegistrationTests.testRegistration2(RegistrationTests.java:28)
+

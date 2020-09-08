@@ -35,7 +35,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a828a06-9c40-4fec-96ea-84351915c78e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUISauceLabs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/TestSuite/ChromeTestCases.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/TestSuite/ChromeTestCases.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/TestSuite/ChromeTestCases.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/TestSuite/ChromeTestCases.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/TestSuite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/TestSuite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.romanceabroad.ui.RegistrationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.romanceabroad.ui.RegistrationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.romanceabroad.ui.TourToUkraineTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.romanceabroad.ui.TourToUkraineTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/TestSuite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/TestSuite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/TestSuite/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/TestSuite/groups.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/TestSuite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/TestSuite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/TestSuite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/TestSuite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/TestSuite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/TestSuite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/TestSuite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/TestSuite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Suite/fail_testRegistration2.png" beforeDir="false" afterPath="$PROJECT_DIR$/reports/Suite/fail_testRegistration2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Suite/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/Suite/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/DataProviders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/DataProviders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +99,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../romanceabroad4 - master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -94,7 +118,7 @@
       <recent name="C:\Users\sbala\Project\romance-abroad4" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SearchTest.testALlFooterLinks">
+  <component name="RunManager" selected="TestNG.C:/Users/sbala/Project/romance/romanceabroad4/TestNG.xml">
     <configuration name="romance [test]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -236,18 +260,18 @@
     </configuration>
     <list>
       <item itemvalue="Maven.romance [test]" />
+      <item itemvalue="TestNG.RegistrationTest.testRegistration " />
       <item itemvalue="TestNG.C:/Users/sbala/Project/romance/romanceabroad4/TestNG.xml" />
       <item itemvalue="TestNG.GiftsTest.testGiftsLink" />
-      <item itemvalue="TestNG.RegistrationTest.testRegistration " />
       <item itemvalue="TestNG.RegistrationTests.testRegistration2" />
       <item itemvalue="TestNG.SearchTest.searchAllOptionFromDropDownList" />
       <item itemvalue="TestNG.SearchTest.testALlFooterLinks" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/sbala/Project/romance/romanceabroad4/TestNG.xml" />
         <item itemvalue="TestNG.SearchTest.testALlFooterLinks" />
         <item itemvalue="TestNG.SearchTest.searchAllOptionFromDropDownList" />
-        <item itemvalue="TestNG.C:/Users/sbala/Project/romance/romanceabroad4/TestNG.xml" />
         <item itemvalue="TestNG.GiftsTest.testGiftsLink" />
         <item itemvalue="TestNG.RegistrationTests.testRegistration2" />
       </list>
@@ -320,22 +344,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="165" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598916123734" />
-    <state width="1493" height="259" key="GridCell.Tab.0.bottom" timestamp="1598490159684">
+    <state width="1493" height="291" key="GridCell.Tab.0.bottom" timestamp="1599527360947">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="259" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598490159684" />
-    <state width="1493" height="259" key="GridCell.Tab.0.center" timestamp="1598490159684">
+    <state width="1493" height="291" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599527360947" />
+    <state width="1493" height="291" key="GridCell.Tab.0.center" timestamp="1599527360947">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="259" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598490159684" />
-    <state width="1493" height="259" key="GridCell.Tab.0.left" timestamp="1598490159684">
+    <state width="1493" height="291" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599527360947" />
+    <state width="1493" height="291" key="GridCell.Tab.0.left" timestamp="1599527360947">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="259" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598490159684" />
-    <state width="1493" height="259" key="GridCell.Tab.0.right" timestamp="1598490159684">
+    <state width="1493" height="291" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599527360947" />
+    <state width="1493" height="291" key="GridCell.Tab.0.right" timestamp="1599527360947">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="259" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598490159684" />
+    <state width="1493" height="291" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599527360947" />
     <state width="1493" height="289" key="GridCell.Tab.1.bottom" timestamp="1597373020437">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

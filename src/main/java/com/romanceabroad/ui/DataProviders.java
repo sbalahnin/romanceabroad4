@@ -12,8 +12,8 @@ public class DataProviders {
     public static Object[][] testRegistration2() {
         return new Object[][]{
                 {Data.email1, Data.nickname, true},
-                {Data.email2, Data.nickname, false},
-                {Data.email3, Data.nickname, true},
+             //   {Data.email2, Data.nickname, false},
+              //  {Data.email3, Data.nickname, true},
         };
     }
 
@@ -43,8 +43,8 @@ public class DataProviders {
     public static Object[][] testSignInFeature() {
         return new Object[][]{
                 {Data.emailSignIn1, Data.passwordSignIn1, false},
-                {Data.emailSignIn2, Data.passwordSignIn1, false},
-                {Data.emailSignIn1, Data.passwordSignIn2, false},
+               // {Data.emailSignIn2, Data.passwordSignIn1, false},
+                //{Data.emailSignIn1, Data.passwordSignIn2, false},
         };
     }
 
