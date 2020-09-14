@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="TestSuite" parallel="tests">
+<suite name="Web TestSuite" parallel="tests">
 
     <!--<test name="IETestCases">
 
@@ -26,8 +26,8 @@
     </test>-->
 
         <test name="Chrome test cases">
-            <parameter name="testBox" value="sauce"/>
-            <parameter name="browser" value="Chrome"/>
+            <parameter name="testBox" value="web"/>
+            <parameter name="browser" value="chrome"/>
             <parameter name="version" value="59.0"/>
             <parameter name="platform" value="Windows 10"/>
 
@@ -38,8 +38,9 @@
 
         </test>
 
+
     <test name="Firefox Mac test cases">
-            <parameter name="testBox" value="sauce"/>
+            <parameter name="testBox" value="web"/>
             <parameter name="browser" value="Firefox"/>
             <parameter name="version" value="68.0"/>
             <parameter name="platform" value="macOS 10.14"/>
@@ -49,34 +50,11 @@
 
             </classes>
 
-        </test>
-        <test name="Edge test cases">
-            <parameter name="testBox" value="sauce"/>
-            <parameter name="browser" value="MicrosoftEdge"/>
-            <parameter name="version" value="16.16299"/>
-            <parameter name="platform" value="Windows 10"/>
+    </test>
 
-            <classes>
-                <class name="com.romanceabroad.ui.RegistrationTests"/>
-
-            </classes>
-
-        </test>
-        <test name="Safari Mac test cases">
-            <parameter name="testBox" value="sauce"/>
-            <parameter name="browser" value="Safari"/>
-            <parameter name="version" value="12.1"/>
-            <parameter name="platform" value="macOS 10.13"/>
-
-            <classes>
-                <class name="com.romanceabroad.ui.RegistrationTests"/>
-
-            </classes>
-
-        </test>
         <test name="IE test cases">
             <parameter name="testBox" value="sauce"/>
-            <parameter name="browser" value="Internet Explorer"/>
+            <parameter name="browser" value="ie"/>
             <parameter name="version" value="11.285"/>
             <parameter name="platform" value="Windows 10"/>
 
@@ -85,6 +63,33 @@
             </classes>
 
         </test>
+
+<!--        <test name="Edge test cases">-->
+<!--            <parameter name="testBox" value="sauce"/>-->
+<!--            <parameter name="browser" value="MicrosoftEdge"/>-->
+<!--            <parameter name="version" value="16.16299"/>-->
+<!--            <parameter name="platform" value="Windows 10"/>-->
+
+<!--            <classes>-->
+<!--                <class name="com.romanceabroad.ui.RegistrationTests"/>-->
+
+<!--            </classes>-->
+
+<!--        </test>-->
+<!--        <test name="Safari Mac test cases">-->
+<!--            <parameter name="testBox" value="sauce"/>-->
+<!--            <parameter name="browser" value="Safari"/>-->
+<!--            <parameter name="version" value="12.1"/>-->
+<!--            <parameter name="platform" value="macOS 10.13"/>-->
+
+<!--            <classes>-->
+<!--                <class name="com.romanceabroad.ui.RegistrationTests"/>-->
+
+<!--            </classes>-->
+
+<!--        </test>-->
+<!--       -->
+
 
     </suite>
 

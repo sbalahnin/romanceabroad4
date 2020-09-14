@@ -9,7 +9,7 @@ import org.testng.annotations.Listeners;
 
 @Listeners(VideoListener.class)
 
-public class RegistrationTests extends BaseUISauceLabs {
+public class RegistrationTests extends BaseUI {
 
     @Video(name = "Registration Test")
     @Test(dataProvider = "Registration2", dataProviderClass = DataProviders.class)

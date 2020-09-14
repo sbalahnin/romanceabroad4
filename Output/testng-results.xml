@@ -1,30 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-08T00:45:53Z" name="TestSuite" finished-at="2020-09-08T00:51:13Z" duration-ms="320090">
+  <suite started-at="2020-09-08T03:53:48Z" name="Mobile TestSuite" finished-at="2020-09-08T03:54:16Z" duration-ms="27349">
     <groups>
     </groups>
-    <test started-at="2020-09-08T00:45:53Z" name="Safari Mac test cases" finished-at="2020-09-08T00:51:13Z" duration-ms="320090">
+    <test started-at="2020-09-08T03:53:48Z" name="Galaxy S5 test cases" finished-at="2020-09-08T03:54:16Z" duration-ms="27349">
       <class name="com.romanceabroad.ui.RegistrationTests">
-        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@48a242ce]" started-at="2020-09-08T00:45:53Z" name="setup" finished-at="2020-09-08T00:46:09Z" duration-ms="15730" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@134593bf]" started-at="2020-09-08T03:53:48Z" name="setup" finished-at="2020-09-08T03:54:01Z" duration-ms="12372" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Safari]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="1">
-              <value>
-                <![CDATA[12.1]]>
-              </value>
+              <value is-null="true"/>
             </param>
             <param index="2">
-              <value>
-                <![CDATA[macOS 10.13]]>
-              </value>
+              <value is-null="true"/>
             </param>
             <param index="3">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Galaxy S5]]>
+              </value>
+            </param>
+            <param index="5">
               <value>
                 <![CDATA[public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java.lang.String,boolean)]]>
               </value>
@@ -33,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@48a242ce]" started-at="2020-09-08T00:46:09Z" name="testRegistration2" data-provider="Registration2" finished-at="2020-09-08T00:51:12Z" duration-ms="302988" status="FAIL">
+        <test-method signature="testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@134593bf]" started-at="2020-09-08T03:54:01Z" name="testRegistration2" data-provider="Registration2" finished-at="2020-09-08T03:54:15Z" duration-ms="14163" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,7 +48,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Testing51469]]>
+                <![CDATA[Testing24286]]>
               </value>
             </param>
             <param index="2">
@@ -51,73 +57,14 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Automation Server Error -- Selenium didn't complete your last command on time.
-For help, please check https://wiki.saucelabs.com/display/DOCS/Common+Error+Messages (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-OIDSKCV', ip: '192.168.1.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 12.1.1, hasMetadata: true, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: 00e9ad0b005745168fc3326f0f8..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
-Session ID: 00e9ad0b005745168fc3326f0f8eda13]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Automation Server Error -- Selenium didn't complete your last command on time.
-For help, please check https://wiki.saucelabs.com/display/DOCS/Common+Error+Messages (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-OIDSKCV', ip: '192.168.1.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 12.1.1, hasMetadata: true, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: 00e9ad0b005745168fc3326f0f8..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
-Session ID: 00e9ad0b005745168fc3326f0f8eda13
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
-at com.romanceabroad.ui.MainPage.secondPartOfRegistration(MainPage.java:63)
-at com.romanceabroad.ui.RegistrationTests.testRegistration2(RegistrationTests.java:28)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:830)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegistration2 -->
-        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@48a242ce]" started-at="2020-09-08T00:51:12Z" name="afterActions" finished-at="2020-09-08T00:51:13Z" duration-ms="1047" status="PASS">
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@134593bf]" started-at="2020-09-08T03:54:15Z" name="afterActions" finished-at="2020-09-08T03:54:16Z" duration-ms="613" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testRegistration2 status=FAILURE method=RegistrationTests.testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@48a242ce] output={null}]]]>
+                <![CDATA[[TestResult name=testRegistration2 status=SUCCESS method=RegistrationTests.testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@134593bf] output={null}]]]>
               </value>
             </param>
           </params>
@@ -125,6 +72,6 @@ at java.base/java.lang.Thread.run(Thread.java:830)
           </reporter-output>
         </test-method> <!-- afterActions -->
       </class> <!-- com.romanceabroad.ui.RegistrationTests -->
-    </test> <!-- Safari Mac test cases -->
-  </suite> <!-- TestSuite -->
+    </test> <!-- Galaxy S5 test cases -->
+  </suite> <!-- Mobile TestSuite -->
 </testng-results>
