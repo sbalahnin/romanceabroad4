@@ -46,7 +46,7 @@ public class BaseUI {
     }
 
     @BeforeMethod(groups = {"user", "admin", "ie"}, alwaysRun = true)
-    @Parameters({"browser", "version", "platform", "testbox", "deviceName"})
+    @Parameters({"browser", "version", "platform", "testBox", "deviceName"})
     public void setup(@Optional("chrome") String browser, @Optional("null") String version,
                       @Optional("null") String platform,
                       @Optional("web") String box, @Optional("null") String device,

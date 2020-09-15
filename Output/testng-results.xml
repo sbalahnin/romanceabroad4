@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-08T03:53:48Z" name="Mobile TestSuite" finished-at="2020-09-08T03:54:16Z" duration-ms="27349">
+  <suite started-at="2020-09-15T15:26:53Z" name="Mobile TestSuite" finished-at="2020-09-15T15:28:06Z" duration-ms="73297">
     <groups>
     </groups>
-    <test started-at="2020-09-08T03:53:48Z" name="Galaxy S5 test cases" finished-at="2020-09-08T03:54:16Z" duration-ms="27349">
+    <test started-at="2020-09-15T15:26:53Z" name="Galaxy S5 test cases" finished-at="2020-09-15T15:27:09Z" duration-ms="15883">
       <class name="com.romanceabroad.ui.RegistrationTests">
-        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@134593bf]" started-at="2020-09-08T03:53:48Z" name="setup" finished-at="2020-09-08T03:54:01Z" duration-ms="12372" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@2698dc7]" started-at="2020-09-15T15:26:53Z" name="setup" finished-at="2020-09-15T15:27:01Z" duration-ms="8298" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[web]]>
+                <![CDATA[mobile]]>
               </value>
             </param>
             <param index="4">
@@ -35,11 +35,16 @@
                 <![CDATA[public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java.lang.String,boolean)]]>
               </value>
             </param>
+            <param index="6">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ae126d1]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@134593bf]" started-at="2020-09-08T03:54:01Z" name="testRegistration2" data-provider="Registration2" finished-at="2020-09-08T03:54:15Z" duration-ms="14163" status="PASS">
+        <test-method signature="testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@2698dc7]" started-at="2020-09-15T15:27:01Z" name="testRegistration2" data-provider="Registration2" finished-at="2020-09-15T15:27:08Z" duration-ms="7021" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,7 +53,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Testing24286]]>
+                <![CDATA[Testing61946]]>
               </value>
             </param>
             <param index="2">
@@ -60,11 +65,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegistration2 -->
-        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@134593bf]" started-at="2020-09-08T03:54:15Z" name="afterActions" finished-at="2020-09-08T03:54:16Z" duration-ms="613" status="PASS">
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@2698dc7]" started-at="2020-09-15T15:27:08Z" name="afterActions" finished-at="2020-09-15T15:27:09Z" duration-ms="406" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testRegistration2 status=SUCCESS method=RegistrationTests.testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@134593bf] output={null}]]]>
+                <![CDATA[[TestResult name=testRegistration2 status=SUCCESS method=RegistrationTests.testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@2698dc7] output={null}]]]>
               </value>
             </param>
           </params>
@@ -73,5 +78,297 @@
         </test-method> <!-- afterActions -->
       </class> <!-- com.romanceabroad.ui.RegistrationTests -->
     </test> <!-- Galaxy S5 test cases -->
+    <test started-at="2020-09-15T15:27:09Z" name="iPhone X test cases" finished-at="2020-09-15T15:27:22Z" duration-ms="13546">
+      <class name="com.romanceabroad.ui.RegistrationTests">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@4e4aea35]" started-at="2020-09-15T15:27:09Z" name="setup" finished-at="2020-09-15T15:27:16Z" duration-ms="7640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[iPhone X]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java.lang.String,boolean)]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[org.testng.TestRunner@46a488c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@4e4aea35]" started-at="2020-09-15T15:27:16Z" name="testRegistration2" data-provider="Registration2" finished-at="2020-09-15T15:27:22Z" duration-ms="5685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing61946]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration2 -->
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@4e4aea35]" started-at="2020-09-15T15:27:22Z" name="afterActions" finished-at="2020-09-15T15:27:22Z" duration-ms="100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration2 status=SUCCESS method=RegistrationTests.testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@4e4aea35] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.RegistrationTests -->
+    </test> <!-- iPhone X test cases -->
+    <test started-at="2020-09-15T15:27:22Z" name="iPhone 6/7/8 test cases" finished-at="2020-09-15T15:27:36Z" duration-ms="14382">
+      <class name="com.romanceabroad.ui.RegistrationTests">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@6cc7b4de]" started-at="2020-09-15T15:27:22Z" name="setup" finished-at="2020-09-15T15:27:30Z" duration-ms="7492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[iPhone 6/7/8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java.lang.String,boolean)]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[org.testng.TestRunner@6242ae3b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@6cc7b4de]" started-at="2020-09-15T15:27:30Z" name="testRegistration2" data-provider="Registration2" finished-at="2020-09-15T15:27:36Z" duration-ms="6628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing61946]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration2 -->
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@6cc7b4de]" started-at="2020-09-15T15:27:36Z" name="afterActions" finished-at="2020-09-15T15:27:36Z" duration-ms="96" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration2 status=SUCCESS method=RegistrationTests.testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@6cc7b4de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.RegistrationTests -->
+    </test> <!-- iPhone 6/7/8 test cases -->
+    <test started-at="2020-09-15T15:27:37Z" name="iPhone 6/7/8 Plus test cases" finished-at="2020-09-15T15:27:51Z" duration-ms="14200">
+      <class name="com.romanceabroad.ui.RegistrationTests">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@799d4f69]" started-at="2020-09-15T15:27:37Z" name="setup" finished-at="2020-09-15T15:27:44Z" duration-ms="7351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[iPhone 6/7/8 Plus]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java.lang.String,boolean)]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[org.testng.TestRunner@65ddee5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@799d4f69]" started-at="2020-09-15T15:27:44Z" name="testRegistration2" data-provider="Registration2" finished-at="2020-09-15T15:27:50Z" duration-ms="6582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing61946]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration2 -->
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@799d4f69]" started-at="2020-09-15T15:27:51Z" name="afterActions" finished-at="2020-09-15T15:27:51Z" duration-ms="102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration2 status=SUCCESS method=RegistrationTests.testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@799d4f69] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.RegistrationTests -->
+    </test> <!-- iPhone 6/7/8 Plus test cases -->
+    <test started-at="2020-09-15T15:27:51Z" name="Galaxy Note 3 test cases" finished-at="2020-09-15T15:28:06Z" duration-ms="15238">
+      <class name="com.romanceabroad.ui.RegistrationTests">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@2d127a61]" started-at="2020-09-15T15:27:51Z" name="setup" finished-at="2020-09-15T15:27:59Z" duration-ms="7919" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Galaxy Note 3]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java.lang.String,boolean)]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[org.testng.TestRunner@56399b9e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@2d127a61]" started-at="2020-09-15T15:27:59Z" name="testRegistration2" data-provider="Registration2" finished-at="2020-09-15T15:28:06Z" duration-ms="7130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing61946]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration2 -->
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@2d127a61]" started-at="2020-09-15T15:28:06Z" name="afterActions" finished-at="2020-09-15T15:28:06Z" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration2 status=SUCCESS method=RegistrationTests.testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@2d127a61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.RegistrationTests -->
+    </test> <!-- Galaxy Note 3 test cases -->
   </suite> <!-- Mobile TestSuite -->
 </testng-results>

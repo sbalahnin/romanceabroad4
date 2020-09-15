@@ -35,29 +35,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a828a06-9c40-4fec-96ea-84351915c78e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TestNGMobile.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/TestSuite/Chrome test cases.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/TestSuite/Chrome test cases.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/TestSuite/Chrome test cases.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/TestSuite/Chrome test cases.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/TestSuite/Firefox Mac test cases.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/TestSuite/Firefox Mac test cases.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/TestSuite/Firefox Mac test cases.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/TestSuite/Firefox Mac test cases.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/Mobile TestSuite/Galaxy S5 test cases.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/Mobile TestSuite/Galaxy S5 test cases.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/Mobile TestSuite/Galaxy S5 test cases.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/Mobile TestSuite/Galaxy S5 test cases.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/Mobile TestSuite/iPhone 6_7_8 test cases.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/Mobile TestSuite/iPhone 6_7_8 test cases.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/Mobile TestSuite/iPhone 6_7_8 test cases.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/Mobile TestSuite/iPhone 6_7_8 test cases.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/Mobile TestSuite/iPhone X test cases.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/Mobile TestSuite/iPhone X test cases.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/Mobile TestSuite/iPhone X test cases.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/Mobile TestSuite/iPhone X test cases.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.romanceabroad.ui.RegistrationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.romanceabroad.ui.RegistrationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/old/TestSuite/Chrome test cases.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/TestSuite/Chrome test cases.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/old/TestSuite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/TestSuite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/old/TestSuite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/TestSuite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/old/TestSuite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/TestSuite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/old/TestSuite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/TestSuite/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/old/TestSuite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/TestSuite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/Mobile TestSuite/Galaxy S5 test cases.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/Mobile TestSuite/Galaxy S5 test cases.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/Mobile TestSuite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/Mobile TestSuite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/Mobile TestSuite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/Mobile TestSuite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/Mobile TestSuite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/Mobile TestSuite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/Mobile TestSuite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/Mobile TestSuite/toc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGWeb.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Suite/fail_testRegistration2.png" beforeDir="false" afterPath="$PROJECT_DIR$/reports/Suite/fail_testRegistration2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/Suite/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/Suite/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,22 +330,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="165" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599536687586" />
-    <state width="1493" height="291" key="GridCell.Tab.0.bottom" timestamp="1600114292251">
+    <state width="1493" height="291" key="GridCell.Tab.0.bottom" timestamp="1600184250722">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600114292251" />
-    <state width="1493" height="291" key="GridCell.Tab.0.center" timestamp="1600114292251">
+    <state width="1493" height="291" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600184250722" />
+    <state width="1493" height="291" key="GridCell.Tab.0.center" timestamp="1600184250721">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600114292251" />
-    <state width="1493" height="291" key="GridCell.Tab.0.left" timestamp="1600114292251">
+    <state width="1493" height="291" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600184250721" />
+    <state width="1493" height="291" key="GridCell.Tab.0.left" timestamp="1600184250721">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600114292251" />
-    <state width="1493" height="291" key="GridCell.Tab.0.right" timestamp="1600114292251">
+    <state width="1493" height="291" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600184250721" />
+    <state width="1493" height="291" key="GridCell.Tab.0.right" timestamp="1600184250721">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600114292251" />
+    <state width="1493" height="291" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600184250721" />
     <state width="1493" height="289" key="GridCell.Tab.1.bottom" timestamp="1597373020437">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
